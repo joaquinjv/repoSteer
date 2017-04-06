@@ -4,12 +4,12 @@
         "source": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/places_ic_search.png",
         "source": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xhdpi/places_ic_search.png"
+    },
+    {
+        "merged": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/mirrorlink/Proyectos/SteerMarzo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",

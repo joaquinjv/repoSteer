@@ -442,7 +442,7 @@ public class MainActivity extends AppCompatActivity
 
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "My Geofence";
-    private static final float GEOFENCE_RADIUS = 500.0f; // in meters
+    private static final float GEOFENCE_RADIUS = 1000.0f; // in meters
 
     // Create a Geofence
     private Geofence createGeofence( LatLng latLng, float radius ) {
@@ -521,7 +521,12 @@ public class MainActivity extends AppCompatActivity
                     .center(geoFenceMarkers.get(i).getPosition())
                     //.strokeColor(Color.argb(50, 70,70,70))
                     //.fillColor( Color.argb(100, 150,150,150) )
-                    .radius( GEOFENCE_RADIUS );
+                    //.fillColor(Color.TRANSPARENT)
+                    //.radius( GEOFENCE_RADIUS );
+                    .radius( GEOFENCE_RADIUS )
+                    .fillColor(Color.TRANSPARENT)
+                    .strokeColor(Color.TRANSPARENT)
+                    .strokeWidth(0);
             geoFenceLimits.add(map.addCircle(circleOptions));
         }
 
@@ -530,6 +535,7 @@ public class MainActivity extends AppCompatActivity
                         new LatLng(-34.936145, -57.962173),new LatLng(-34.932380, -57.958139))
                 .strokeColor(Color.BLUE)
                 .fillColor(Color.parseColor("#51000000")).strokeWidth(2));
+
 
     }
     private void drawGeofence2() {
