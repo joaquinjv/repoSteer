@@ -56,7 +56,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.tinmegali.mylocation"
+        applicationId "com.steer.mylocation"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
