@@ -531,8 +531,8 @@ public class MainActivity extends AppCompatActivity
         }
 
         Polygon polygon2 = map.addPolygon(new PolygonOptions()
-                .add(new LatLng(-34.927349, -57.969501), new LatLng( -34.932011, -57.974640),
-                        new LatLng(-34.936145, -57.962173),new LatLng(-34.932380, -57.958139))
+                .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
+                        new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
                 .strokeColor(Color.BLUE)
                 .fillColor(Color.parseColor("#51000000")).strokeWidth(2));
 

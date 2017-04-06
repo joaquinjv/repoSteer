@@ -100,7 +100,7 @@ public class GeofenceParkingService extends IntentService {
                 .setSmallIcon(R.drawable.ic_action_location_green)
                 .setColor(Color.GREEN)
                 .setContentTitle(msg)
-                .setContentText("In Parkiz zone")
+                .setContentText("Estacionamiento Iniciado")
                 .setContentIntent(notificationPendingIntent)
                 .setDefaults(Notification.DEFAULT_LIGHTS | Notification.DEFAULT_VIBRATE | Notification.DEFAULT_SOUND)
                 .setAutoCancel(true);
