@@ -1,0 +1,18 @@
+{
+  "user": {
+    "creditAmount": "$50"
+  },
+  "pointOfSales": [{
+    "name": "pointOfSale1",
+    "lat": "-34.926187",
+    "lgt": "-57.971988"
+  }, {
+    "name": "pointOfSale2",
+    "lat": "-34.928245",
+    "lgt": "-57.970325"
+  }, {
+    "name": "pointOfSale3",
+    "lat": "-34.928298",
+    "lgt": "-57.974295"
+  }]
+}

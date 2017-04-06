@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+
+def generateSelfSignedCertificate(version){
+    def buildType = version == "release" ? "assembleRelease": "assembleDebug"
+    def rerunAssemble = true
+    def projectLocation = projectDir.toString()
+    def certGeneratorLocation = "certificategenerator-android-studio.jar"
+    def certXmlLocation = projectLocation + "/certificate.xml"
+    def certificateDestination = projectLocation + "/src/main/assets/self-signed.ccc.crt"
+    def certificateFolder = projectLocation + "/src/main/assets/"
+    def certificateIssuer = "CN=Developer"
+    def developerId = "dec53d7a55d5c312959e36fd218d0dd08d5afa08"
+    def apkLocation = ""
+    android.applicationVariants.all { variant ->
+        if ((variant.name).equals(version)) {
+            variant.outputs.each { output ->
+                apkLocation = output.outputFile
+            }
+        }
+    }
+
+    if (project.hasProperty("isLast")) {
+        rerunAssemble = !isLast
+    }
+
+
+    if (rerunAssemble) {
+        def subdir = new File(certificateFolder)
+        if( !subdir.exists() ) {
+            subdir.mkdirs()
+        }
+        exec {
+            executable 'java'
+            args "-jar", certGeneratorLocation, "generate-certificate", apkLocation,
+                    android.defaultConfig.applicationId, android.defaultConfig.versionCode,
+                    certXmlLocation, certificateDestination, certificateIssuer, developerId
+        }
+        if (System.properties['os.name'].toLowerCase().contains("windows")) {
+            exec {
+                executable "cmd"
+                workingDir projectLocation
+                args  "/c", "..\\gradlew.bat", buildType, "-PisLast=true"
+            }
+        } else {
+            exec {
+                executable "bash"
+                workingDir projectLocation
+                args "../gradlew", buildType, "-PisLast=true"
+            }
+        }
+    }
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.tinmegali.mylocation"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    afterEvaluate {
+        assembleDebug.finalizedBy generateSelfSignedCertificateForDebug
+        assembleRelease.finalizedBy generateSelfSignedCertificateForRelase
+    }
+
+    task generateSelfSignedCertificateForDebug << {
+        generateSelfSignedCertificate("debug")
+    }
+
+    task generateSelfSignedCertificateForRelase << {
+        generateSelfSignedCertificate("release")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.google.android.gms:play-services-location:8.+'
+    compile 'com.android.support:design:23.2.1'
+    //compile files('libs/gson-master.jar')
+    compile 'com.google.code.gson:gson:2.3.1'
+}
