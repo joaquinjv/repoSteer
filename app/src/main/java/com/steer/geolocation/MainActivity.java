@@ -292,11 +292,27 @@ public class MainActivity extends AppCompatActivity
             LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
     }
 
+    //private void updateCameraBearing(GoogleMap googleMap, float bearing) {
+    private void updateCameraBearing(float bearing) {
+        if ( map == null) return;
+        CameraPosition camPos = CameraPosition
+                .builder(
+                        map.getCameraPosition() // current Camera
+                )
+                .zoom(19)         //Establecemos el zoom en 19
+                .tilt(70)
+                .bearing(bearing)
+                .build();
+        map.animateCamera(CameraUpdateFactory.newCameraPosition(camPos));
+
+    }
+
     @Override
     public void onLocationChanged(Location location) {
         Log.d(TAG, "onLocationChanged ["+location+"]");
         lastLocation = location;
         writeActualLocation(location);
+        //updateCameraBearing(location.getBearing());
     }
 
     // GoogleApiClient.ConnectionCallbacks connected
@@ -328,7 +344,7 @@ public class MainActivity extends AppCompatActivity
                 Log.i(TAG, "LasKnown location. " +
                         "Long: " + lastLocation.getLongitude() +
                         " | Lat: " + lastLocation.getLatitude());
-                writeLastLocation();
+                //writeLastLocation();
                 startLocationUpdates();
             } else {
                 Log.w(TAG, "No location retrieved yet");
@@ -342,7 +358,7 @@ public class MainActivity extends AppCompatActivity
         textLat.setText( "Lat: " + location.getLatitude() );
         textLong.setText( "Long: " + location.getLongitude() );
 
-        markerLocation(new LatLng(location.getLatitude(), location.getLongitude()));
+        markerLocation(new LatLng(location.getLatitude(), location.getLongitude()), location);
     }
 
     private void writeLastLocation() {
@@ -350,7 +366,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private Marker locationMarker;
-    private void markerLocation(LatLng latLng) {
+    private void markerLocation(LatLng latLng, Location location) {
         Log.i(TAG, "markerLocation("+latLng+")");
         String title = latLng.latitude + ", " + latLng.longitude;
         MarkerOptions markerOptions = new MarkerOptions()
@@ -361,10 +377,14 @@ public class MainActivity extends AppCompatActivity
                 locationMarker.remove();
             locationMarker = map.addMarker(markerOptions);
             //float zoom = 14f;
-            CameraPosition camPos = new CameraPosition.Builder()
+            CameraPosition camPos = CameraPosition
+                    .builder(
+                            map.getCameraPosition() // current Camera
+                    )
+                    .bearing(location.getBearing())
                     .target(latLng)   //Centramos en mi ubicacion
                     .zoom(19)         //Establecemos el zoom en 19
-                    .bearing(45)      //Establecemos la orientación con el noreste arriba
+                    //.bearing(45)      //Establecemos la orientación con el noreste arriba
                     .tilt(70)         //Bajamos el punto de vista de la cámara 70 grados
                     .build();
             CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(camPos);//newLatLngZoom(latLng, zoom);
