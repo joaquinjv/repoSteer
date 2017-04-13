@@ -52,6 +52,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.maps.android.PolyUtil;
 import com.steer.geolocation.entities.PointOfSale;
 
 import java.io.BufferedReader;
@@ -584,7 +585,7 @@ public class MainActivity extends AppCompatActivity
     private List<Circle> geoFenceLimits = new ArrayList<>();
     private void drawGeofence() {
         Log.d(TAG, "drawGeofence()");
-
+        //map.clear();
         if ( geoFenceLimits.size() > 0) {
             for (int i = 0; i < geoFenceLimits.size(); i++) {
                 geoFenceLimits.get(i).remove();
@@ -592,40 +593,38 @@ public class MainActivity extends AppCompatActivity
             geoFenceLimits = new ArrayList<Circle>();
         }
         for (int i = 0; i < geoFenceMarkers.size(); i++){
+            //TODO
+            /*Original
             CircleOptions circleOptions = new CircleOptions()
                     .center(geoFenceMarkers.get(i).getPosition())
-                    //.strokeColor(Color.argb(50, 70,70,70))
-                    //.fillColor( Color.argb(100, 150,150,150) )
-                    //.fillColor(Color.TRANSPARENT)
-                    //.radius( GEOFENCE_RADIUS );
                     .radius( GEOFENCE_RADIUS )
                     .fillColor(Color.TRANSPARENT)
                     .strokeColor(Color.TRANSPARENT)
                     .strokeWidth(0);
+            geoFenceLimits.add(map.addCircle(circleOptions));*/
+            CircleOptions circleOptions = new CircleOptions()
+                    .center(geoFenceMarkers.get(i).getPosition())
+                    .radius( GEOFENCE_RADIUS )
+                    //.fillColor(Color.TRANSPARENT)
+                    //.strokeColor(Color.TRANSPARENT)
+                    //.strokeWidth(0);
+                    .fillColor(0x40ff0000)
+                    .strokeColor(Color.TRANSPARENT)
+                    .strokeWidth(2);
             geoFenceLimits.add(map.addCircle(circleOptions));
         }
 
-        Polygon polygon2 = map.addPolygon(new PolygonOptions()
-                .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
-                        new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
-                .strokeColor(Color.BLUE)
-                .fillColor(Color.parseColor("#51000000")).strokeWidth(2));
+        ArrayList<LatLng> ss = new ArrayList<LatLng>();
+                ss.add(new LatLng(-34.927647, -57.973754));ss.add(new LatLng( -34.933120, -57.979907));ss.add(
+                        new LatLng(-34.943369, -57.966196));ss.add(new LatLng(-34.937715, -57.960064));
 
-
-    }
-    private void drawGeofence2() {
-        /*
-        Log.d(TAG, "drawGeofence()");
-        LatLng l1 = new LatLng(-34.917636, -57.971065);
-        LatLng l2 = new LatLng(-34.917636, -57.971065);
-        LatLng l3 = new LatLng(-34.917636, -57.971065);
-        CircleOptions circleOptions = new CircleOptions()
-                .center(geoFenceMarkers.get(i).getPosition())
-                .strokeColor(Color.argb(50, 70,70,70))
-                .fillColor( Color.argb(100, 150,150,150) )
-                .radius( GEOFENCE_RADIUS );
-        geoFenceLimits.add(map.addCircle(circleOptions));
-        */
+        if (PolyUtil.containsLocation(geoFenceMarkers.get(0).getPosition(), ss, Boolean.FALSE)){
+            Polygon polygon3 = map.addPolygon(new PolygonOptions()
+                    .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
+                            new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
+                    .strokeColor(Color.TRANSPARENT)
+                    .fillColor(0x40ff0000).strokeWidth(1));
+        }
 
     }
 
