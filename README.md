@@ -1,4 +1,4 @@
 ### Title: Steer
 
-#### Author: Pedro Rosriguez, Joaquín Villalba 
+#### Author: Pedro Rodriguez, Joaquín Villalba
 
