@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SteerMarzo.iml" filepath="$PROJECT_DIR$/SteerMarzo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repoSteer.iml" filepath="$PROJECT_DIR$/repoSteer.iml" />
     </modules>
   </component>
 </project>
