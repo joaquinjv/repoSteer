@@ -38,6 +38,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
@@ -45,6 +46,12 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polygon;
 import com.google.android.gms.maps.model.PolygonOptions;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.steer.geolocation.entities.PointOfSale;
 
 import java.io.BufferedReader;
@@ -353,8 +360,14 @@ public class MainActivity extends AppCompatActivity
             if ( locationMarker != null )
                 locationMarker.remove();
             locationMarker = map.addMarker(markerOptions);
-            float zoom = 14f;
-            CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, zoom);
+            //float zoom = 14f;
+            CameraPosition camPos = new CameraPosition.Builder()
+                    .target(latLng)   //Centramos en mi ubicacion
+                    .zoom(19)         //Establecemos el zoom en 19
+                    .bearing(45)      //Establecemos la orientación con el noreste arriba
+                    .tilt(70)         //Bajamos el punto de vista de la cámara 70 grados
+                    .build();
+            CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(camPos);//newLatLngZoom(latLng, zoom);
             map.animateCamera(cameraUpdate);
         }
     }
@@ -381,14 +394,53 @@ public class MainActivity extends AppCompatActivity
     }*/
 
     private List<Marker> pointOfSalesMarkers = new ArrayList<Marker>();
-    private List<PointOfSale> pointOfSalesList = new ArrayList<PointOfSale>();
+    //private List<PointOfSale> pointOfSalesList = new ArrayList<PointOfSale>();
     private void setPointOfSales() {
+        DatabaseReference dbRef =
+                FirebaseDatabase.getInstance().getReference().child("pointOfSales");
+        dbRef.addValueEventListener(
+                new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        for (DataSnapshot ds : dataSnapshot.getChildren()) {
+                            Log.e(TAG, "dataChange reading db");
+                            // Get Post object and use the values to update the UI
+                            PointOfSale pos = ds.getValue(PointOfSale.class);
+                            MarkerOptions markerOptions = new MarkerOptions()
+                                    .position(new LatLng(pos.getLatitude(), pos.getLongitude()))
+                                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+                                    .title(pos.getName())
+                                    .snippet(pos.getDetails());
+                            if (map != null) {
+                                // Remove last geoFenceMarker
+                                //if (geoFenceMarker != null)
+                                //    geoFenceMarker.remove();
+                                pointOfSalesMarkers.add(map.addMarker(markerOptions));
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Log.e(TAG, "Error reading db");
+                    }
+                }
+        );
+
+//      ######BORRAR ..SE AGREGAN LOS PUNTOS DE VENTA DESDE LA BASE
+/*
         pointOfSalesList.add(new PointOfSale(
-                "Kiosko Zodiaco","Horario: 9hs - 14hs, 16hs - 20hs","-34.927244", "-57.964372"));
+            "Kiosko Zodiaco","Horario: 9hs - 14hs, 16hs - 20hs","-34.927244", "-57.964372"));
         pointOfSalesList.add(new PointOfSale(
-                "Alamacen del Barrio","Horario: 9:30hs - 13:30hs, 17hs - 20:30hs","-34.928245","-57.970325"));
+            "Alamacen del Barrio","Horario: 9:30hs - 13:30hs, 17hs - 20:30hs","-34.928245","-57.970325"));
         pointOfSalesList.add(new PointOfSale(
-                "Locutorio El Sol","Horario: 7hs - 21hs","-34.918198", "-57.967283"));
+            "Locutorio El Sol","Horario: 7hs - 21hs","-34.918198", "-57.967283"));
+
+
+        dbRef.child("pointOfSales").push().setValue(pointOfSalesList.get(0));
+        dbRef.child("pointOfSales").push().setValue(pointOfSalesList.get(1));
+        dbRef.child("pointOfSales").push().setValue(pointOfSalesList.get(2));
+
         for (int i = 0; i < pointOfSalesList.size(); i++){
             // Define marker options
             MarkerOptions markerOptions = new MarkerOptions()
@@ -404,6 +456,8 @@ public class MainActivity extends AppCompatActivity
 
             }
         }
+*/
+
     }
 
     private List<Marker> geoFenceMarkers = new ArrayList<Marker>();
@@ -439,6 +493,7 @@ public class MainActivity extends AppCompatActivity
             Log.e(TAG, "Geofence marker is null");
         }
     }
+
 
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "My Geofence";

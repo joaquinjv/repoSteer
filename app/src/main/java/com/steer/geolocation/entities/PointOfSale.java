@@ -15,7 +15,6 @@ public class PointOfSale {
     private String details;
 
     public PointOfSale(String name, String details, String latitude, String longitude) {
-        super();
         this.latitude = Double.parseDouble(latitude);
         this.longitude = Double.parseDouble(longitude);
         this.name = name;
@@ -23,7 +22,6 @@ public class PointOfSale {
     }
 
     public PointOfSale() {
-        super();
     }
 
     public Double getLatitude() {
