@@ -98,7 +98,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f0100da;
+        public static final int actionLayout=0x7f0100e0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -176,7 +176,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f0100dc;
+        public static final int actionProviderClass=0x7f0100e2;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -184,7 +184,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f0100db;
+        public static final int actionViewClass=0x7f0100e1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -273,7 +273,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f01012f;
+        public static final int backgroundTint=0x7f010135;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -287,7 +287,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010130;
+        public static final int backgroundTintMode=0x7f010136;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -315,7 +315,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_overlapTop=0x7f0100eb;
+        public static final int behavior_overlapTop=0x7f0100f1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -385,7 +385,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int buttonSize=0x7f0100f9;
+        public static final int buttonSize=0x7f0100ff;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -425,6 +425,22 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int cameraBearing=0x7f0100c9;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraMaxZoomPreference=0x7f0100da;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraMinZoomPreference=0x7f0100d9;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -476,7 +492,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f0100f0;
+        public static final int closeIcon=0x7f0100f6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -488,11 +504,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f010126;
+        public static final int collapseContentDescription=0x7f01012c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010125;
+        public static final int collapseIcon=0x7f01012b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -601,7 +617,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int colorScheme=0x7f0100fa;
+        public static final int colorScheme=0x7f010100;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -614,7 +630,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f0100f5;
+        public static final int commitIcon=0x7f0100fb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -675,7 +691,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterEnabled=0x7f010118;
+        public static final int counterEnabled=0x7f01011e;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -683,15 +699,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterMaxLength=0x7f010119;
+        public static final int counterMaxLength=0x7f01011f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterOverflowTextAppearance=0x7f01011b;
+        public static final int counterOverflowTextAppearance=0x7f010121;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterTextAppearance=0x7f01011a;
+        public static final int counterTextAppearance=0x7f010120;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -703,7 +719,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f0100ef;
+        public static final int defaultQueryHint=0x7f0100f5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -815,11 +831,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int errorEnabled=0x7f010116;
+        public static final int errorEnabled=0x7f01011c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int errorTextAppearance=0x7f010117;
+        public static final int errorTextAppearance=0x7f01011d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -937,11 +953,11 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f0100f1;
+        public static final int goIcon=0x7f0100f7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int headerLayout=0x7f0100e3;
+        public static final int headerLayout=0x7f0100e9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -967,7 +983,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintAnimationEnabled=0x7f01011c;
+        public static final int hintAnimationEnabled=0x7f010122;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -975,11 +991,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintEnabled=0x7f010115;
+        public static final int hintEnabled=0x7f01011b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int hintTextAppearance=0x7f010114;
+        public static final int hintTextAppearance=0x7f01011a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -999,7 +1015,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f0100ed;
+        public static final int iconifiedByDefault=0x7f0100f3;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1041,7 +1057,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int insetForeground=0x7f0100ea;
+        public static final int insetForeground=0x7f0100f0;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1053,7 +1069,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemBackground=0x7f0100e1;
+        public static final int itemBackground=0x7f0100e7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1062,7 +1078,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconTint=0x7f0100df;
+        public static final int itemIconTint=0x7f0100e5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1076,7 +1092,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f0100e2;
+        public static final int itemTextAppearance=0x7f0100e8;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1085,15 +1101,47 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemTextColor=0x7f0100e0;
+        public static final int itemTextColor=0x7f0100e6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int keylines=0x7f0100ab;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsNorthEastLatitude=0x7f0100dd;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsNorthEastLongitude=0x7f0100de;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsSouthWestLatitude=0x7f0100db;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsSouthWestLongitude=0x7f0100dc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f0100ec;
+        public static final int layout=0x7f0100f2;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1101,7 +1149,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layoutManager=0x7f0100e6;
+        public static final int layoutManager=0x7f0100ec;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1272,7 +1320,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f010129;
+        public static final int logoDescription=0x7f01012f;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1296,7 +1344,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxActionInlineWidth=0x7f0100fc;
+        public static final int maxActionInlineWidth=0x7f010102;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1306,7 +1354,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f010124;
+        public static final int maxButtonHeight=0x7f01012a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1318,7 +1366,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int menu=0x7f0100de;
+        public static final int menu=0x7f0100e4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1330,11 +1378,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f010128;
+        public static final int navigationContentDescription=0x7f01012e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f010127;
+        public static final int navigationIcon=0x7f01012d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1354,7 +1402,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f0100e4;
+        public static final int overlapAnchor=0x7f0100ea;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1364,7 +1412,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f01012d;
+        public static final int paddingEnd=0x7f010133;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1374,7 +1422,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f01012c;
+        public static final int paddingStart=0x7f010132;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1412,7 +1460,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f0100dd;
+        public static final int preserveIconSpacing=0x7f0100e3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1440,7 +1488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f0100f7;
+        public static final int queryBackground=0x7f0100fd;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1448,7 +1496,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f0100ee;
+        public static final int queryHint=0x7f0100f4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1472,7 +1520,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int reverseLayout=0x7f0100e8;
+        public static final int reverseLayout=0x7f0100ee;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1486,15 +1534,15 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int scopeUris=0x7f0100fb;
+        public static final int scopeUris=0x7f010101;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f0100f3;
+        public static final int searchHintIcon=0x7f0100f9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f0100f2;
+        public static final int searchIcon=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1524,7 +1572,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f0100d9;
+        public static final int showAsAction=0x7f0100df;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1545,7 +1593,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010103;
+        public static final int showText=0x7f010109;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1557,7 +1605,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spanCount=0x7f0100e7;
+        public static final int spanCount=0x7f0100ed;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1581,7 +1629,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010102;
+        public static final int splitTrack=0x7f010108;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1593,7 +1641,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int stackFromEnd=0x7f0100e9;
+        public static final int stackFromEnd=0x7f0100ef;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1601,7 +1649,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f0100e5;
+        public static final int state_above_anchor=0x7f0100eb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1618,7 +1666,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f0100f8;
+        public static final int submitBackground=0x7f0100fe;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1630,7 +1678,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f01011e;
+        public static final int subtitleTextAppearance=0x7f010124;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1639,7 +1687,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f01012b;
+        public static final int subtitleTextColor=0x7f010131;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1647,7 +1695,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f0100f6;
+        public static final int suggestionRowLayout=0x7f0100fc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1657,7 +1705,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f010100;
+        public static final int switchMinWidth=0x7f010106;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1667,7 +1715,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010101;
+        public static final int switchPadding=0x7f010107;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1675,11 +1723,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f0100ff;
+        public static final int switchTextAppearance=0x7f010105;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabBackground=0x7f010107;
+        public static final int tabBackground=0x7f01010d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1689,7 +1737,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabContentStart=0x7f010106;
+        public static final int tabContentStart=0x7f01010c;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1700,7 +1748,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabGravity=0x7f010109;
+        public static final int tabGravity=0x7f01010f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1709,7 +1757,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorColor=0x7f010104;
+        public static final int tabIndicatorColor=0x7f01010a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1719,7 +1767,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorHeight=0x7f010105;
+        public static final int tabIndicatorHeight=0x7f01010b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1729,7 +1777,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMaxWidth=0x7f01010b;
+        public static final int tabMaxWidth=0x7f010111;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1739,7 +1787,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMinWidth=0x7f01010a;
+        public static final int tabMinWidth=0x7f010110;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1750,7 +1798,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabMode=0x7f010108;
+        public static final int tabMode=0x7f01010e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1760,7 +1808,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPadding=0x7f010113;
+        public static final int tabPadding=0x7f010119;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1770,7 +1818,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingBottom=0x7f010112;
+        public static final int tabPaddingBottom=0x7f010118;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1780,7 +1828,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingEnd=0x7f010111;
+        public static final int tabPaddingEnd=0x7f010117;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1790,7 +1838,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingStart=0x7f01010f;
+        public static final int tabPaddingStart=0x7f010115;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1800,7 +1848,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingTop=0x7f010110;
+        public static final int tabPaddingTop=0x7f010116;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1809,11 +1857,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabSelectedTextColor=0x7f01010e;
+        public static final int tabSelectedTextColor=0x7f010114;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabTextAppearance=0x7f01010c;
+        public static final int tabTextAppearance=0x7f010112;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1822,7 +1870,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabTextColor=0x7f01010d;
+        public static final int tabTextColor=0x7f010113;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -1876,7 +1924,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f01012e;
+        public static final int theme=0x7f010134;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1896,7 +1944,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f0100fe;
+        public static final int thumbTextPadding=0x7f010104;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1922,7 +1970,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f010123;
+        public static final int titleMarginBottom=0x7f010129;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1932,7 +1980,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f010121;
+        public static final int titleMarginEnd=0x7f010127;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1942,7 +1990,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f010120;
+        public static final int titleMarginStart=0x7f010126;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1952,7 +2000,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f010122;
+        public static final int titleMarginTop=0x7f010128;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1962,11 +2010,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f01011f;
+        public static final int titleMargins=0x7f010125;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f01011d;
+        public static final int titleTextAppearance=0x7f010123;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1975,7 +2023,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01012a;
+        public static final int titleTextColor=0x7f010130;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1995,7 +2043,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f0100fd;
+        public static final int track=0x7f010103;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2071,7 +2119,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f0100f4;
+        public static final int voiceIcon=0x7f0100fa;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2202,20 +2250,20 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f070007;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0b005f;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0b0060;
-        public static final int abc_color_highlight_material=0x7f0b0061;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0b0050;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0b0051;
+        public static final int abc_color_highlight_material=0x7f0b0052;
         public static final int abc_input_method_navigation_guard=0x7f0b0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0b0062;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0b0063;
-        public static final int abc_primary_text_material_dark=0x7f0b0064;
-        public static final int abc_primary_text_material_light=0x7f0b0065;
-        public static final int abc_search_url_text=0x7f0b0066;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0b0053;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0b0054;
+        public static final int abc_primary_text_material_dark=0x7f0b0055;
+        public static final int abc_primary_text_material_light=0x7f0b0056;
+        public static final int abc_search_url_text=0x7f0b0057;
         public static final int abc_search_url_text_normal=0x7f0b0001;
         public static final int abc_search_url_text_pressed=0x7f0b0002;
         public static final int abc_search_url_text_selected=0x7f0b0003;
-        public static final int abc_secondary_text_material_dark=0x7f0b0067;
-        public static final int abc_secondary_text_material_light=0x7f0b0068;
+        public static final int abc_secondary_text_material_dark=0x7f0b0058;
+        public static final int abc_secondary_text_material_light=0x7f0b0059;
         public static final int accent_material_dark=0x7f0b0004;
         public static final int accent_material_light=0x7f0b0005;
         public static final int background_floating_material_dark=0x7f0b0006;
@@ -2233,86 +2281,69 @@ containing a value of this type.
         public static final int colorAccent=0x7f0b0012;
         public static final int colorPrimary=0x7f0b0013;
         public static final int colorPrimaryDark=0x7f0b0014;
-        public static final int common_action_bar_splitter=0x7f0b0015;
-        public static final int common_google_signin_btn_text_dark=0x7f0b0069;
-        public static final int common_google_signin_btn_text_dark_default=0x7f0b0016;
-        public static final int common_google_signin_btn_text_dark_disabled=0x7f0b0017;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f0b0018;
-        public static final int common_google_signin_btn_text_dark_pressed=0x7f0b0019;
-        public static final int common_google_signin_btn_text_light=0x7f0b006a;
-        public static final int common_google_signin_btn_text_light_default=0x7f0b001a;
-        public static final int common_google_signin_btn_text_light_disabled=0x7f0b001b;
-        public static final int common_google_signin_btn_text_light_focused=0x7f0b001c;
-        public static final int common_google_signin_btn_text_light_pressed=0x7f0b001d;
-        public static final int common_plus_signin_btn_text_dark=0x7f0b006b;
-        public static final int common_plus_signin_btn_text_dark_default=0x7f0b001e;
-        public static final int common_plus_signin_btn_text_dark_disabled=0x7f0b001f;
-        public static final int common_plus_signin_btn_text_dark_focused=0x7f0b0020;
-        public static final int common_plus_signin_btn_text_dark_pressed=0x7f0b0021;
-        public static final int common_plus_signin_btn_text_light=0x7f0b006c;
-        public static final int common_plus_signin_btn_text_light_default=0x7f0b0022;
-        public static final int common_plus_signin_btn_text_light_disabled=0x7f0b0023;
-        public static final int common_plus_signin_btn_text_light_focused=0x7f0b0024;
-        public static final int common_plus_signin_btn_text_light_pressed=0x7f0b0025;
-        public static final int design_fab_shadow_end_color=0x7f0b0026;
-        public static final int design_fab_shadow_mid_color=0x7f0b0027;
-        public static final int design_fab_shadow_start_color=0x7f0b0028;
-        public static final int design_fab_stroke_end_inner_color=0x7f0b0029;
-        public static final int design_fab_stroke_end_outer_color=0x7f0b002a;
-        public static final int design_fab_stroke_top_inner_color=0x7f0b002b;
-        public static final int design_fab_stroke_top_outer_color=0x7f0b002c;
-        public static final int design_snackbar_background_color=0x7f0b002d;
-        public static final int design_textinput_error_color_dark=0x7f0b002e;
-        public static final int design_textinput_error_color_light=0x7f0b002f;
-        public static final int dim_foreground_disabled_material_dark=0x7f0b0030;
-        public static final int dim_foreground_disabled_material_light=0x7f0b0031;
-        public static final int dim_foreground_material_dark=0x7f0b0032;
-        public static final int dim_foreground_material_light=0x7f0b0033;
-        public static final int foreground_material_dark=0x7f0b0034;
-        public static final int foreground_material_light=0x7f0b0035;
-        public static final int highlighted_text_material_dark=0x7f0b0036;
-        public static final int highlighted_text_material_light=0x7f0b0037;
-        public static final int hint_foreground_material_dark=0x7f0b0038;
-        public static final int hint_foreground_material_light=0x7f0b0039;
-        public static final int material_blue_grey_800=0x7f0b003a;
-        public static final int material_blue_grey_900=0x7f0b003b;
-        public static final int material_blue_grey_950=0x7f0b003c;
-        public static final int material_deep_teal_200=0x7f0b003d;
-        public static final int material_deep_teal_500=0x7f0b003e;
-        public static final int material_grey_100=0x7f0b003f;
-        public static final int material_grey_300=0x7f0b0040;
-        public static final int material_grey_50=0x7f0b0041;
-        public static final int material_grey_600=0x7f0b0042;
-        public static final int material_grey_800=0x7f0b0043;
-        public static final int material_grey_850=0x7f0b0044;
-        public static final int material_grey_900=0x7f0b0045;
-        public static final int place_autocomplete_prediction_primary_text=0x7f0b0046;
-        public static final int place_autocomplete_prediction_primary_text_highlight=0x7f0b0047;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f0b0048;
-        public static final int place_autocomplete_search_hint=0x7f0b0049;
-        public static final int place_autocomplete_search_text=0x7f0b004a;
-        public static final int place_autocomplete_separator=0x7f0b004b;
-        public static final int primary_dark_material_dark=0x7f0b004c;
-        public static final int primary_dark_material_light=0x7f0b004d;
-        public static final int primary_material_dark=0x7f0b004e;
-        public static final int primary_material_light=0x7f0b004f;
-        public static final int primary_text_default_material_dark=0x7f0b0050;
-        public static final int primary_text_default_material_light=0x7f0b0051;
-        public static final int primary_text_disabled_material_dark=0x7f0b0052;
-        public static final int primary_text_disabled_material_light=0x7f0b0053;
-        public static final int ripple_material_dark=0x7f0b0054;
-        public static final int ripple_material_light=0x7f0b0055;
-        public static final int secondary_text_default_material_dark=0x7f0b0056;
-        public static final int secondary_text_default_material_light=0x7f0b0057;
-        public static final int secondary_text_disabled_material_dark=0x7f0b0058;
-        public static final int secondary_text_disabled_material_light=0x7f0b0059;
-        public static final int switch_thumb_disabled_material_dark=0x7f0b005a;
-        public static final int switch_thumb_disabled_material_light=0x7f0b005b;
-        public static final int switch_thumb_material_dark=0x7f0b006d;
-        public static final int switch_thumb_material_light=0x7f0b006e;
-        public static final int switch_thumb_normal_material_dark=0x7f0b005c;
-        public static final int switch_thumb_normal_material_light=0x7f0b005d;
-        public static final int white=0x7f0b005e;
+        public static final int common_google_signin_btn_text_dark=0x7f0b005a;
+        public static final int common_google_signin_btn_text_dark_default=0x7f0b0015;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f0b0016;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f0b0017;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f0b0018;
+        public static final int common_google_signin_btn_text_light=0x7f0b005b;
+        public static final int common_google_signin_btn_text_light_default=0x7f0b0019;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f0b001a;
+        public static final int common_google_signin_btn_text_light_focused=0x7f0b001b;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f0b001c;
+        public static final int design_fab_shadow_end_color=0x7f0b001d;
+        public static final int design_fab_shadow_mid_color=0x7f0b001e;
+        public static final int design_fab_shadow_start_color=0x7f0b001f;
+        public static final int design_fab_stroke_end_inner_color=0x7f0b0020;
+        public static final int design_fab_stroke_end_outer_color=0x7f0b0021;
+        public static final int design_fab_stroke_top_inner_color=0x7f0b0022;
+        public static final int design_fab_stroke_top_outer_color=0x7f0b0023;
+        public static final int design_snackbar_background_color=0x7f0b0024;
+        public static final int design_textinput_error_color_dark=0x7f0b0025;
+        public static final int design_textinput_error_color_light=0x7f0b0026;
+        public static final int dim_foreground_disabled_material_dark=0x7f0b0027;
+        public static final int dim_foreground_disabled_material_light=0x7f0b0028;
+        public static final int dim_foreground_material_dark=0x7f0b0029;
+        public static final int dim_foreground_material_light=0x7f0b002a;
+        public static final int foreground_material_dark=0x7f0b002b;
+        public static final int foreground_material_light=0x7f0b002c;
+        public static final int highlighted_text_material_dark=0x7f0b002d;
+        public static final int highlighted_text_material_light=0x7f0b002e;
+        public static final int hint_foreground_material_dark=0x7f0b002f;
+        public static final int hint_foreground_material_light=0x7f0b0030;
+        public static final int material_blue_grey_800=0x7f0b0031;
+        public static final int material_blue_grey_900=0x7f0b0032;
+        public static final int material_blue_grey_950=0x7f0b0033;
+        public static final int material_deep_teal_200=0x7f0b0034;
+        public static final int material_deep_teal_500=0x7f0b0035;
+        public static final int material_grey_100=0x7f0b0036;
+        public static final int material_grey_300=0x7f0b0037;
+        public static final int material_grey_50=0x7f0b0038;
+        public static final int material_grey_600=0x7f0b0039;
+        public static final int material_grey_800=0x7f0b003a;
+        public static final int material_grey_850=0x7f0b003b;
+        public static final int material_grey_900=0x7f0b003c;
+        public static final int primary_dark_material_dark=0x7f0b003d;
+        public static final int primary_dark_material_light=0x7f0b003e;
+        public static final int primary_material_dark=0x7f0b003f;
+        public static final int primary_material_light=0x7f0b0040;
+        public static final int primary_text_default_material_dark=0x7f0b0041;
+        public static final int primary_text_default_material_light=0x7f0b0042;
+        public static final int primary_text_disabled_material_dark=0x7f0b0043;
+        public static final int primary_text_disabled_material_light=0x7f0b0044;
+        public static final int ripple_material_dark=0x7f0b0045;
+        public static final int ripple_material_light=0x7f0b0046;
+        public static final int secondary_text_default_material_dark=0x7f0b0047;
+        public static final int secondary_text_default_material_light=0x7f0b0048;
+        public static final int secondary_text_disabled_material_dark=0x7f0b0049;
+        public static final int secondary_text_disabled_material_light=0x7f0b004a;
+        public static final int switch_thumb_disabled_material_dark=0x7f0b004b;
+        public static final int switch_thumb_disabled_material_light=0x7f0b004c;
+        public static final int switch_thumb_material_dark=0x7f0b005c;
+        public static final int switch_thumb_material_light=0x7f0b005d;
+        public static final int switch_thumb_normal_material_dark=0x7f0b004d;
+        public static final int switch_thumb_normal_material_light=0x7f0b004e;
+        public static final int white=0x7f0b004f;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f08000d;
@@ -2424,16 +2455,6 @@ containing a value of this type.
         public static final int notification_large_icon_height=0x7f08006a;
         public static final int notification_large_icon_width=0x7f08006b;
         public static final int notification_subtext_size=0x7f08006c;
-        public static final int place_autocomplete_button_padding=0x7f08006d;
-        public static final int place_autocomplete_powered_by_google_height=0x7f08006e;
-        public static final int place_autocomplete_powered_by_google_start=0x7f08006f;
-        public static final int place_autocomplete_prediction_height=0x7f080070;
-        public static final int place_autocomplete_prediction_horizontal_margin=0x7f080071;
-        public static final int place_autocomplete_prediction_primary_text=0x7f080072;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f080073;
-        public static final int place_autocomplete_progress_horizontal_margin=0x7f080074;
-        public static final int place_autocomplete_progress_size=0x7f080075;
-        public static final int place_autocomplete_separator_start=0x7f080076;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2532,36 +2553,11 @@ containing a value of this type.
         public static final int common_google_signin_btn_text_light_focused=0x7f02005d;
         public static final int common_google_signin_btn_text_light_normal=0x7f02005e;
         public static final int common_google_signin_btn_text_light_pressed=0x7f02005f;
-        public static final int common_ic_googleplayservices=0x7f020060;
-        public static final int common_plus_signin_btn_icon_dark=0x7f020061;
-        public static final int common_plus_signin_btn_icon_dark_disabled=0x7f020062;
-        public static final int common_plus_signin_btn_icon_dark_focused=0x7f020063;
-        public static final int common_plus_signin_btn_icon_dark_normal=0x7f020064;
-        public static final int common_plus_signin_btn_icon_dark_pressed=0x7f020065;
-        public static final int common_plus_signin_btn_icon_light=0x7f020066;
-        public static final int common_plus_signin_btn_icon_light_disabled=0x7f020067;
-        public static final int common_plus_signin_btn_icon_light_focused=0x7f020068;
-        public static final int common_plus_signin_btn_icon_light_normal=0x7f020069;
-        public static final int common_plus_signin_btn_icon_light_pressed=0x7f02006a;
-        public static final int common_plus_signin_btn_text_dark=0x7f02006b;
-        public static final int common_plus_signin_btn_text_dark_disabled=0x7f02006c;
-        public static final int common_plus_signin_btn_text_dark_focused=0x7f02006d;
-        public static final int common_plus_signin_btn_text_dark_normal=0x7f02006e;
-        public static final int common_plus_signin_btn_text_dark_pressed=0x7f02006f;
-        public static final int common_plus_signin_btn_text_light=0x7f020070;
-        public static final int common_plus_signin_btn_text_light_disabled=0x7f020071;
-        public static final int common_plus_signin_btn_text_light_focused=0x7f020072;
-        public static final int common_plus_signin_btn_text_light_normal=0x7f020073;
-        public static final int common_plus_signin_btn_text_light_pressed=0x7f020074;
-        public static final int design_fab_background=0x7f020075;
-        public static final int design_snackbar_background=0x7f020076;
-        public static final int ic_action_location=0x7f020077;
-        public static final int ic_action_location_green=0x7f020078;
-        public static final int notification_template_icon_bg=0x7f02007d;
-        public static final int places_ic_clear=0x7f020079;
-        public static final int places_ic_search=0x7f02007a;
-        public static final int powered_by_google_dark=0x7f02007b;
-        public static final int powered_by_google_light=0x7f02007c;
+        public static final int design_fab_background=0x7f020060;
+        public static final int design_snackbar_background=0x7f020061;
+        public static final int ic_action_location=0x7f020062;
+        public static final int ic_action_location_green=0x7f020063;
+        public static final int notification_template_icon_bg=0x7f020064;
     }
     public static final class id {
         public static final int action0=0x7f0c0082;
@@ -2594,7 +2590,7 @@ containing a value of this type.
         public static final int center_vertical=0x7f0c0020;
         public static final int checkbox=0x7f0c005d;
         public static final int chronometer=0x7f0c0089;
-        public static final int clear=0x7f0c0098;
+        public static final int clear=0x7f0c0090;
         public static final int clip_horizontal=0x7f0c002c;
         public static final int clip_vertical=0x7f0c002d;
         public static final int collapseActionView=0x7f0c0039;
@@ -2623,7 +2619,7 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0c002f;
         public static final int fill_vertical=0x7f0c0022;
         public static final int fixed=0x7f0c0043;
-        public static final int geofence=0x7f0c0097;
+        public static final int geofence=0x7f0c008f;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000f;
         public static final int hybrid=0x7f0c0035;
@@ -2653,14 +2649,6 @@ containing a value of this type.
         public static final int parallax=0x7f0c001b;
         public static final int parentPanel=0x7f0c0051;
         public static final int pin=0x7f0c001c;
-        public static final int place_autocomplete_clear_button=0x7f0c0091;
-        public static final int place_autocomplete_powered_by_google=0x7f0c0093;
-        public static final int place_autocomplete_prediction_primary_text=0x7f0c0095;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f0c0096;
-        public static final int place_autocomplete_progress=0x7f0c0094;
-        public static final int place_autocomplete_search_button=0x7f0c008f;
-        public static final int place_autocomplete_search_input=0x7f0c0090;
-        public static final int place_autocomplete_separator=0x7f0c0092;
         public static final int progress_circular=0x7f0c0006;
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c005f;
@@ -2775,14 +2763,10 @@ containing a value of this type.
         public static final int notification_template_media=0x7f04002b;
         public static final int notification_template_part_chronometer=0x7f04002c;
         public static final int notification_template_part_time=0x7f04002d;
-        public static final int place_autocomplete_fragment=0x7f04002e;
-        public static final int place_autocomplete_item_powered_by_google=0x7f04002f;
-        public static final int place_autocomplete_item_prediction=0x7f040030;
-        public static final int place_autocomplete_progress=0x7f040031;
-        public static final int select_dialog_item_material=0x7f040032;
-        public static final int select_dialog_multichoice_material=0x7f040033;
-        public static final int select_dialog_singlechoice_material=0x7f040034;
-        public static final int support_simple_spinner_dropdown_item=0x7f040035;
+        public static final int select_dialog_item_material=0x7f04002e;
+        public static final int select_dialog_multichoice_material=0x7f04002f;
+        public static final int select_dialog_singlechoice_material=0x7f040030;
+        public static final int support_simple_spinner_dropdown_item=0x7f040031;
     }
     public static final class menu {
         public static final int main_menu=0x7f0d0000;
@@ -2810,46 +2794,37 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f060010;
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
-        public static final int app_name=0x7f060033;
-        public static final int appbar_scrolling_view_behavior=0x7f060034;
-        public static final int auth_google_play_services_client_facebook_display_name=0x7f060035;
-        public static final int auth_google_play_services_client_google_display_name=0x7f060036;
-        public static final int bottom_sheet_behavior=0x7f060037;
-        public static final int character_counter_pattern=0x7f060038;
-        public static final int common_google_play_services_api_unavailable_text=0x7f060013;
-        public static final int common_google_play_services_enable_button=0x7f060014;
-        public static final int common_google_play_services_enable_text=0x7f060015;
-        public static final int common_google_play_services_enable_title=0x7f060016;
-        public static final int common_google_play_services_install_button=0x7f060017;
-        public static final int common_google_play_services_install_text_phone=0x7f060018;
-        public static final int common_google_play_services_install_text_tablet=0x7f060019;
-        public static final int common_google_play_services_install_title=0x7f06001a;
-        public static final int common_google_play_services_invalid_account_text=0x7f06001b;
-        public static final int common_google_play_services_invalid_account_title=0x7f06001c;
-        public static final int common_google_play_services_network_error_text=0x7f06001d;
-        public static final int common_google_play_services_network_error_title=0x7f06001e;
-        public static final int common_google_play_services_notification_ticker=0x7f06001f;
-        public static final int common_google_play_services_restricted_profile_text=0x7f060020;
-        public static final int common_google_play_services_restricted_profile_title=0x7f060021;
-        public static final int common_google_play_services_sign_in_failed_text=0x7f060022;
-        public static final int common_google_play_services_sign_in_failed_title=0x7f060023;
-        public static final int common_google_play_services_unknown_issue=0x7f060024;
-        public static final int common_google_play_services_unsupported_text=0x7f060025;
-        public static final int common_google_play_services_unsupported_title=0x7f060026;
-        public static final int common_google_play_services_update_button=0x7f060027;
-        public static final int common_google_play_services_update_text=0x7f060028;
-        public static final int common_google_play_services_update_title=0x7f060029;
-        public static final int common_google_play_services_updating_text=0x7f06002a;
-        public static final int common_google_play_services_updating_title=0x7f06002b;
-        public static final int common_google_play_services_wear_update_text=0x7f06002c;
-        public static final int common_open_on_phone=0x7f06002d;
-        public static final int common_signin_button_text=0x7f06002e;
-        public static final int common_signin_button_text_long=0x7f06002f;
-        public static final int google_maps_key=0x7f060039;
-        public static final int parking_button=0x7f06003a;
-        public static final int place_autocomplete_clear_button=0x7f060030;
-        public static final int place_autocomplete_search_hint=0x7f060031;
-        public static final int status_bar_notification_info_overflow=0x7f060032;
+        public static final int app_name=0x7f060025;
+        public static final int appbar_scrolling_view_behavior=0x7f060026;
+        public static final int bottom_sheet_behavior=0x7f060027;
+        public static final int character_counter_pattern=0x7f060028;
+        public static final int common_google_play_services_enable_button=0x7f060013;
+        public static final int common_google_play_services_enable_text=0x7f060014;
+        public static final int common_google_play_services_enable_title=0x7f060015;
+        public static final int common_google_play_services_install_button=0x7f060016;
+        public static final int common_google_play_services_install_text=0x7f060017;
+        public static final int common_google_play_services_install_title=0x7f060018;
+        public static final int common_google_play_services_notification_ticker=0x7f060019;
+        public static final int common_google_play_services_unknown_issue=0x7f06001a;
+        public static final int common_google_play_services_unsupported_text=0x7f06001b;
+        public static final int common_google_play_services_update_button=0x7f06001c;
+        public static final int common_google_play_services_update_text=0x7f06001d;
+        public static final int common_google_play_services_update_title=0x7f06001e;
+        public static final int common_google_play_services_updating_text=0x7f06001f;
+        public static final int common_google_play_services_wear_update_text=0x7f060020;
+        public static final int common_open_on_phone=0x7f060021;
+        public static final int common_signin_button_text=0x7f060022;
+        public static final int common_signin_button_text_long=0x7f060023;
+        public static final int default_web_client_id=0x7f060029;
+        public static final int firebase_database_url=0x7f06002a;
+        public static final int gcm_defaultSenderId=0x7f06002b;
+        public static final int google_api_key=0x7f06002c;
+        public static final int google_app_id=0x7f06002d;
+        public static final int google_crash_reporting_api_key=0x7f06002e;
+        public static final int google_maps_key=0x7f06002f;
+        public static final int google_storage_bucket=0x7f060030;
+        public static final int parking_button=0x7f060031;
+        public static final int status_bar_notification_info_overflow=0x7f060024;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f090087;
@@ -3204,33 +3179,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.tinmegali.mylocation:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.tinmegali.mylocation:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.tinmegali.mylocation:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.tinmegali.mylocation:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.tinmegali.mylocation:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.tinmegali.mylocation:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.tinmegali.mylocation:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.tinmegali.mylocation:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.tinmegali.mylocation:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.tinmegali.mylocation:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.tinmegali.mylocation:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.tinmegali.mylocation:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.tinmegali.mylocation:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.tinmegali.mylocation:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.tinmegali.mylocation:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.tinmegali.mylocation:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.tinmegali.mylocation:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.tinmegali.mylocation:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.tinmegali.mylocation:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.tinmegali.mylocation:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.tinmegali.mylocation:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.tinmegali.mylocation:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.tinmegali.mylocation:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.tinmegali.mylocation:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.tinmegali.mylocation:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.tinmegali.mylocation:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.tinmegali.mylocation:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.steer.geolocation:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.steer.geolocation:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.steer.geolocation:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.steer.geolocation:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.steer.geolocation:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.steer.geolocation:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.steer.geolocation:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.steer.geolocation:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.steer.geolocation:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.steer.geolocation:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.steer.geolocation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.steer.geolocation:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.steer.geolocation:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.steer.geolocation:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.steer.geolocation:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.steer.geolocation:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.steer.geolocation:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.steer.geolocation:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.steer.geolocation:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.steer.geolocation:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.steer.geolocation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.steer.geolocation:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.steer.geolocation:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.steer.geolocation:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.steer.geolocation:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.steer.geolocation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.steer.geolocation:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3270,17 +3245,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010057
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#background}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:background
+          @attr name com.steer.geolocation:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3288,11 +3263,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:backgroundSplit
+          @attr name com.steer.geolocation:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3300,11 +3275,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:backgroundStacked
+          @attr name com.steer.geolocation:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3316,11 +3291,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetEnd
+          @attr name com.steer.geolocation:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3332,11 +3307,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetLeft
+          @attr name com.steer.geolocation:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3348,11 +3323,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetRight
+          @attr name com.steer.geolocation:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3364,21 +3339,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetStart
+          @attr name com.steer.geolocation:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:customNavigationLayout
+          @attr name com.steer.geolocation:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3396,21 +3371,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:displayOptions
+          @attr name com.steer.geolocation:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:divider
+          @attr name com.steer.geolocation:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3422,11 +3397,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:elevation
+          @attr name com.steer.geolocation:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#height}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3438,11 +3413,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:height
+          @attr name com.steer.geolocation:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3452,51 +3427,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:hideOnContentScroll
+          @attr name com.steer.geolocation:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:homeAsUpIndicator
+          @attr name com.steer.geolocation:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:homeLayout
+          @attr name com.steer.geolocation:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:icon
+          @attr name com.steer.geolocation:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:indeterminateProgressStyle
+          @attr name com.steer.geolocation:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3508,21 +3483,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:itemPadding
+          @attr name com.steer.geolocation:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:logo
+          @attr name com.steer.geolocation:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3536,21 +3511,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:navigationMode
+          @attr name com.steer.geolocation:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:popupTheme
+          @attr name com.steer.geolocation:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3562,21 +3537,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:progressBarPadding
+          @attr name com.steer.geolocation:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:progressBarStyle
+          @attr name com.steer.geolocation:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3586,21 +3561,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:subtitle
+          @attr name com.steer.geolocation:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:subtitleTextStyle
+          @attr name com.steer.geolocation:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#title}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3610,17 +3585,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:title
+          @attr name com.steer.geolocation:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:titleTextStyle
+          @attr name com.steer.geolocation:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3672,12 +3647,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.tinmegali.mylocation:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.tinmegali.mylocation:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.tinmegali.mylocation:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.tinmegali.mylocation:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.tinmegali.mylocation:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.tinmegali.mylocation:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.steer.geolocation:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.steer.geolocation:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.steer.geolocation:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.steer.geolocation:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.steer.geolocation:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.steer.geolocation:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3691,17 +3666,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#background}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:background
+          @attr name com.steer.geolocation:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3709,21 +3684,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:backgroundSplit
+          @attr name com.steer.geolocation:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:closeItemLayout
+          @attr name com.steer.geolocation:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#height}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3735,27 +3710,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:height
+          @attr name com.steer.geolocation:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:subtitleTextStyle
+          @attr name com.steer.geolocation:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:titleTextStyle
+          @attr name com.steer.geolocation:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3764,8 +3739,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.tinmegali.mylocation:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.tinmegali.mylocation:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.steer.geolocation:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.steer.geolocation:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3774,17 +3749,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:expandActivityOverflowButtonDrawable
+          @attr name com.steer.geolocation:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3794,7 +3769,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:initialActivityCount
+          @attr name com.steer.geolocation:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3804,11 +3779,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.tinmegali.mylocation:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.tinmegali.mylocation:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.tinmegali.mylocation:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.tinmegali.mylocation:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.tinmegali.mylocation:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.steer.geolocation:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.steer.geolocation:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.steer.geolocation:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.steer.geolocation:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.steer.geolocation:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -3828,53 +3803,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonPanelSideLayout
+          @attr name com.steer.geolocation:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:listItemLayout
+          @attr name com.steer.geolocation:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:listLayout
+          @attr name com.steer.geolocation:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:multiChoiceItemLayout
+          @attr name com.steer.geolocation:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:singleChoiceItemLayout
+          @attr name com.steer.geolocation:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -3884,8 +3859,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.tinmegali.mylocation:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.tinmegali.mylocation:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.steer.geolocation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.steer.geolocation:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -3901,7 +3876,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3913,11 +3888,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:elevation
+          @attr name com.steer.geolocation:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3927,7 +3902,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:expanded
+          @attr name com.steer.geolocation:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -3936,8 +3911,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.tinmegali.mylocation:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.tinmegali.mylocation:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.steer.geolocation:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.steer.geolocation:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -3946,7 +3921,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -3962,17 +3937,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:layout_scrollFlags
+          @attr name com.steer.geolocation:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:layout_scrollInterpolator
+          @attr name com.steer.geolocation:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -3982,7 +3957,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.tinmegali.mylocation:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.steer.geolocation:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -3997,13 +3972,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:srcCompat
+          @attr name com.steer.geolocation:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4013,7 +3988,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.tinmegali.mylocation:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.steer.geolocation:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4028,14 +4003,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.tinmegali.mylocation:textAllCaps
+          @attr name com.steer.geolocation:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4044,118 +4019,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.tinmegali.mylocation:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.tinmegali.mylocation:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.tinmegali.mylocation:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.tinmegali.mylocation:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.tinmegali.mylocation:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.tinmegali.mylocation:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.tinmegali.mylocation:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.tinmegali.mylocation:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.tinmegali.mylocation:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.tinmegali.mylocation:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.tinmegali.mylocation:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.tinmegali.mylocation:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.tinmegali.mylocation:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.tinmegali.mylocation:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.tinmegali.mylocation:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.tinmegali.mylocation:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.tinmegali.mylocation:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.tinmegali.mylocation:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.tinmegali.mylocation:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.tinmegali.mylocation:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.tinmegali.mylocation:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.tinmegali.mylocation:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.tinmegali.mylocation:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.tinmegali.mylocation:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.tinmegali.mylocation:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.tinmegali.mylocation:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.tinmegali.mylocation:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.tinmegali.mylocation:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.tinmegali.mylocation:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.tinmegali.mylocation:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.tinmegali.mylocation:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.tinmegali.mylocation:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.tinmegali.mylocation:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.tinmegali.mylocation:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.tinmegali.mylocation:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.steer.geolocation:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.steer.geolocation:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.steer.geolocation:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.steer.geolocation:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.steer.geolocation:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.steer.geolocation:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.steer.geolocation:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.steer.geolocation:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.steer.geolocation:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.steer.geolocation:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.steer.geolocation:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.steer.geolocation:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.steer.geolocation:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.steer.geolocation:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.steer.geolocation:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.steer.geolocation:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.steer.geolocation:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.steer.geolocation:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.steer.geolocation:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.steer.geolocation:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.steer.geolocation:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.steer.geolocation:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.steer.geolocation:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.steer.geolocation:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.steer.geolocation:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.steer.geolocation:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.steer.geolocation:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.steer.geolocation:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.steer.geolocation:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.steer.geolocation:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.steer.geolocation:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.steer.geolocation:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.steer.geolocation:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.steer.geolocation:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.steer.geolocation:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.tinmegali.mylocation:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.tinmegali.mylocation:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.tinmegali.mylocation:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.tinmegali.mylocation:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.tinmegali.mylocation:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.tinmegali.mylocation:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.tinmegali.mylocation:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.tinmegali.mylocation:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.tinmegali.mylocation:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.tinmegali.mylocation:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.tinmegali.mylocation:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.tinmegali.mylocation:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.tinmegali.mylocation:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.tinmegali.mylocation:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.tinmegali.mylocation:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.tinmegali.mylocation:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.tinmegali.mylocation:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.tinmegali.mylocation:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.tinmegali.mylocation:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.tinmegali.mylocation:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.tinmegali.mylocation:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.tinmegali.mylocation:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.tinmegali.mylocation:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.tinmegali.mylocation:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.tinmegali.mylocation:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.tinmegali.mylocation:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.tinmegali.mylocation:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.tinmegali.mylocation:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.tinmegali.mylocation:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.tinmegali.mylocation:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.tinmegali.mylocation:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.tinmegali.mylocation:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.tinmegali.mylocation:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.tinmegali.mylocation:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.tinmegali.mylocation:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.tinmegali.mylocation:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.tinmegali.mylocation:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.tinmegali.mylocation:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.tinmegali.mylocation:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.tinmegali.mylocation:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.tinmegali.mylocation:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.tinmegali.mylocation:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.tinmegali.mylocation:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.tinmegali.mylocation:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.tinmegali.mylocation:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.tinmegali.mylocation:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.tinmegali.mylocation:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.tinmegali.mylocation:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.tinmegali.mylocation:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.tinmegali.mylocation:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.tinmegali.mylocation:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.tinmegali.mylocation:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.tinmegali.mylocation:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.tinmegali.mylocation:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.tinmegali.mylocation:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.tinmegali.mylocation:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.tinmegali.mylocation:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.tinmegali.mylocation:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.tinmegali.mylocation:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.tinmegali.mylocation:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.tinmegali.mylocation:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.tinmegali.mylocation:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.tinmegali.mylocation:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.tinmegali.mylocation:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.tinmegali.mylocation:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.tinmegali.mylocation:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.tinmegali.mylocation:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.tinmegali.mylocation:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.tinmegali.mylocation:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.tinmegali.mylocation:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.tinmegali.mylocation:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.tinmegali.mylocation:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.tinmegali.mylocation:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.tinmegali.mylocation:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.tinmegali.mylocation:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.steer.geolocation:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.steer.geolocation:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.steer.geolocation:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.steer.geolocation:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.steer.geolocation:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.steer.geolocation:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.steer.geolocation:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.steer.geolocation:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.steer.geolocation:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.steer.geolocation:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.steer.geolocation:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.steer.geolocation:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.steer.geolocation:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.steer.geolocation:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.steer.geolocation:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.steer.geolocation:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.steer.geolocation:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.steer.geolocation:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.steer.geolocation:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.steer.geolocation:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.steer.geolocation:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.steer.geolocation:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.steer.geolocation:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.steer.geolocation:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.steer.geolocation:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.steer.geolocation:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.steer.geolocation:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.steer.geolocation:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.steer.geolocation:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.steer.geolocation:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.steer.geolocation:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.steer.geolocation:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.steer.geolocation:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.steer.geolocation:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.steer.geolocation:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.steer.geolocation:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.steer.geolocation:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.steer.geolocation:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.steer.geolocation:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.steer.geolocation:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.steer.geolocation:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.steer.geolocation:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.steer.geolocation:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.steer.geolocation:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.steer.geolocation:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.steer.geolocation:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.steer.geolocation:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.steer.geolocation:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.steer.geolocation:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.steer.geolocation:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.steer.geolocation:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.steer.geolocation:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.steer.geolocation:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.steer.geolocation:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.steer.geolocation:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.steer.geolocation:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.steer.geolocation:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.steer.geolocation:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.steer.geolocation:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.steer.geolocation:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.steer.geolocation:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.steer.geolocation:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.steer.geolocation:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.steer.geolocation:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.steer.geolocation:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.steer.geolocation:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.steer.geolocation:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.steer.geolocation:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.steer.geolocation:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.steer.geolocation:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.steer.geolocation:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.steer.geolocation:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.steer.geolocation:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.steer.geolocation:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.steer.geolocation:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4301,37 +4276,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010093, 0x7f010094, 0x7f010095, 0x7f010096
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarDivider
+          @attr name com.steer.geolocation:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarItemBackground
+          @attr name com.steer.geolocation:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarPopupTheme
+          @attr name com.steer.geolocation:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4351,111 +4326,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:actionBarSize
+          @attr name com.steer.geolocation:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarSplitStyle
+          @attr name com.steer.geolocation:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarStyle
+          @attr name com.steer.geolocation:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarTabBarStyle
+          @attr name com.steer.geolocation:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarTabStyle
+          @attr name com.steer.geolocation:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarTabTextStyle
+          @attr name com.steer.geolocation:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarTheme
+          @attr name com.steer.geolocation:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionBarWidgetTheme
+          @attr name com.steer.geolocation:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionButtonStyle
+          @attr name com.steer.geolocation:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionDropDownStyle
+          @attr name com.steer.geolocation:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionMenuTextAppearance
+          @attr name com.steer.geolocation:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4463,181 +4438,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:actionMenuTextColor
+          @attr name com.steer.geolocation:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeBackground
+          @attr name com.steer.geolocation:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeCloseButtonStyle
+          @attr name com.steer.geolocation:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeCloseDrawable
+          @attr name com.steer.geolocation:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeCopyDrawable
+          @attr name com.steer.geolocation:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeCutDrawable
+          @attr name com.steer.geolocation:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeFindDrawable
+          @attr name com.steer.geolocation:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModePasteDrawable
+          @attr name com.steer.geolocation:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModePopupWindowStyle
+          @attr name com.steer.geolocation:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeSelectAllDrawable
+          @attr name com.steer.geolocation:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeShareDrawable
+          @attr name com.steer.geolocation:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeSplitBackground
+          @attr name com.steer.geolocation:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeStyle
+          @attr name com.steer.geolocation:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionModeWebSearchDrawable
+          @attr name com.steer.geolocation:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionOverflowButtonStyle
+          @attr name com.steer.geolocation:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionOverflowMenuStyle
+          @attr name com.steer.geolocation:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:activityChooserViewStyle
+          @attr name com.steer.geolocation:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:alertDialogButtonGroupStyle
+          @attr name com.steer.geolocation:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4647,27 +4622,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:alertDialogCenterButtons
+          @attr name com.steer.geolocation:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:alertDialogStyle
+          @attr name com.steer.geolocation:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:alertDialogTheme
+          @attr name com.steer.geolocation:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 94;
         /**
@@ -4683,117 +4658,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:autoCompleteTextViewStyle
+          @attr name com.steer.geolocation:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:borderlessButtonStyle
+          @attr name com.steer.geolocation:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonBarButtonStyle
+          @attr name com.steer.geolocation:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonBarNegativeButtonStyle
+          @attr name com.steer.geolocation:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonBarNeutralButtonStyle
+          @attr name com.steer.geolocation:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonBarPositiveButtonStyle
+          @attr name com.steer.geolocation:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonBarStyle
+          @attr name com.steer.geolocation:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonStyle
+          @attr name com.steer.geolocation:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:buttonStyleSmall
+          @attr name com.steer.geolocation:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:checkboxStyle
+          @attr name com.steer.geolocation:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:checkedTextViewStyle
+          @attr name com.steer.geolocation:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4804,11 +4779,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorAccent
+          @attr name com.steer.geolocation:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4819,11 +4794,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorButtonNormal
+          @attr name com.steer.geolocation:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4834,11 +4809,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorControlActivated
+          @attr name com.steer.geolocation:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4849,11 +4824,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorControlHighlight
+          @attr name com.steer.geolocation:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4864,11 +4839,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorControlNormal
+          @attr name com.steer.geolocation:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4879,11 +4854,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorPrimary
+          @attr name com.steer.geolocation:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4894,11 +4869,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorPrimaryDark
+          @attr name com.steer.geolocation:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4909,21 +4884,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:colorSwitchThumbNormal
+          @attr name com.steer.geolocation:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:controlBackground
+          @attr name com.steer.geolocation:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4935,51 +4910,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:dialogPreferredPadding
+          @attr name com.steer.geolocation:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:dialogTheme
+          @attr name com.steer.geolocation:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:dividerHorizontal
+          @attr name com.steer.geolocation:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:dividerVertical
+          @attr name com.steer.geolocation:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:dropDownListViewStyle
+          @attr name com.steer.geolocation:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4991,21 +4966,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:dropdownListPreferredItemHeight
+          @attr name com.steer.geolocation:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:editTextBackground
+          @attr name com.steer.geolocation:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5013,71 +4988,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:editTextColor
+          @attr name com.steer.geolocation:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:editTextStyle
+          @attr name com.steer.geolocation:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:homeAsUpIndicator
+          @attr name com.steer.geolocation:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:imageButtonStyle
+          @attr name com.steer.geolocation:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:listChoiceBackgroundIndicator
+          @attr name com.steer.geolocation:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:listDividerAlertDialog
+          @attr name com.steer.geolocation:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:listPopupWindowStyle
+          @attr name com.steer.geolocation:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5089,11 +5064,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:listPreferredItemHeight
+          @attr name com.steer.geolocation:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5105,11 +5080,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:listPreferredItemHeightLarge
+          @attr name com.steer.geolocation:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5121,11 +5096,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:listPreferredItemHeightSmall
+          @attr name com.steer.geolocation:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5137,11 +5112,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:listPreferredItemPaddingLeft
+          @attr name com.steer.geolocation:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5153,31 +5128,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:listPreferredItemPaddingRight
+          @attr name com.steer.geolocation:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:panelBackground
+          @attr name com.steer.geolocation:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:panelMenuListTheme
+          @attr name com.steer.geolocation:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5189,201 +5164,201 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:panelMenuListWidth
+          @attr name com.steer.geolocation:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:popupMenuStyle
+          @attr name com.steer.geolocation:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:popupWindowStyle
+          @attr name com.steer.geolocation:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:radioButtonStyle
+          @attr name com.steer.geolocation:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:ratingBarStyle
+          @attr name com.steer.geolocation:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:ratingBarStyleIndicator
+          @attr name com.steer.geolocation:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:ratingBarStyleSmall
+          @attr name com.steer.geolocation:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:searchViewStyle
+          @attr name com.steer.geolocation:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:seekBarStyle
+          @attr name com.steer.geolocation:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:selectableItemBackground
+          @attr name com.steer.geolocation:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:selectableItemBackgroundBorderless
+          @attr name com.steer.geolocation:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:spinnerDropDownItemStyle
+          @attr name com.steer.geolocation:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:spinnerStyle
+          @attr name com.steer.geolocation:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 110;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:switchStyle
+          @attr name com.steer.geolocation:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:textAppearanceLargePopupMenu
+          @attr name com.steer.geolocation:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:textAppearanceListItem
+          @attr name com.steer.geolocation:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:textAppearanceListItemSmall
+          @attr name com.steer.geolocation:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:textAppearanceSearchResultSubtitle
+          @attr name com.steer.geolocation:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:textAppearanceSearchResultTitle
+          @attr name com.steer.geolocation:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:textAppearanceSmallPopupMenu
+          @attr name com.steer.geolocation:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5391,11 +5366,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:textColorAlertDialogListItem
+          @attr name com.steer.geolocation:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5403,31 +5378,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:textColorSearchUrl
+          @attr name com.steer.geolocation:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:toolbarNavigationButtonStyle
+          @attr name com.steer.geolocation:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:toolbarStyle
+          @attr name com.steer.geolocation:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5437,11 +5412,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowActionBar
+          @attr name com.steer.geolocation:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5451,11 +5426,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowActionBarOverlay
+          @attr name com.steer.geolocation:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5465,11 +5440,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowActionModeOverlay
+          @attr name com.steer.geolocation:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5484,11 +5459,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowFixedHeightMajor
+          @attr name com.steer.geolocation:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5503,11 +5478,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowFixedHeightMinor
+          @attr name com.steer.geolocation:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5522,11 +5497,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowFixedWidthMajor
+          @attr name com.steer.geolocation:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5541,11 +5516,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowFixedWidthMinor
+          @attr name com.steer.geolocation:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5560,11 +5535,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowMinWidthMajor
+          @attr name com.steer.geolocation:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5579,11 +5554,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowMinWidthMinor
+          @attr name com.steer.geolocation:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5593,7 +5568,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:windowNoTitle
+          @attr name com.steer.geolocation:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -5602,8 +5577,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.tinmegali.mylocation:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.tinmegali.mylocation:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.steer.geolocation:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.steer.geolocation:behavior_peekHeight}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Params_behavior_hideable
            @see #BottomSheetBehavior_Params_behavior_peekHeight
@@ -5612,7 +5587,7 @@ containing a value of this type.
             0x7f010097, 0x7f010098
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -5622,11 +5597,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:behavior_hideable
+          @attr name com.steer.geolocation:behavior_hideable
         */
         public static final int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -5638,7 +5613,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:behavior_peekHeight
+          @attr name com.steer.geolocation:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -5647,7 +5622,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.tinmegali.mylocation:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.steer.geolocation:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -5655,7 +5630,7 @@ containing a value of this type.
             0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -5665,7 +5640,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:allowStacking
+          @attr name com.steer.geolocation:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -5674,8 +5649,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.tinmegali.mylocation:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.tinmegali.mylocation:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.steer.geolocation:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.steer.geolocation:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -5684,7 +5659,7 @@ containing a value of this type.
             0x7f01009a, 0x7f01009b
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -5698,11 +5673,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:layout_collapseMode
+          @attr name com.steer.geolocation:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -5712,7 +5687,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:layout_collapseParallaxMultiplier
+          @attr name com.steer.geolocation:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -5721,20 +5696,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.tinmegali.mylocation:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.tinmegali.mylocation:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.tinmegali.mylocation:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.tinmegali.mylocation:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.tinmegali.mylocation:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.tinmegali.mylocation:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.tinmegali.mylocation:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.tinmegali.mylocation:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.tinmegali.mylocation:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.tinmegali.mylocation:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.tinmegali.mylocation:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.tinmegali.mylocation:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.tinmegali.mylocation:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.tinmegali.mylocation:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.steer.geolocation:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.steer.geolocation:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.steer.geolocation:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.steer.geolocation:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.steer.geolocation:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.steer.geolocation:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.steer.geolocation:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.steer.geolocation:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.steer.geolocation:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.steer.geolocation:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.steer.geolocation:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.steer.geolocation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.steer.geolocation:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.steer.geolocation:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -5758,7 +5733,7 @@ containing a value of this type.
             0x7f0100a7, 0x7f0100a8
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5779,21 +5754,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:collapsedTitleGravity
+          @attr name com.steer.geolocation:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:collapsedTitleTextAppearance
+          @attr name com.steer.geolocation:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5804,11 +5779,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentScrim
+          @attr name com.steer.geolocation:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5829,11 +5804,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:expandedTitleGravity
+          @attr name com.steer.geolocation:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5845,11 +5820,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:expandedTitleMargin
+          @attr name com.steer.geolocation:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5861,11 +5836,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:expandedTitleMarginBottom
+          @attr name com.steer.geolocation:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5877,11 +5852,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:expandedTitleMarginEnd
+          @attr name com.steer.geolocation:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5893,11 +5868,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:expandedTitleMarginStart
+          @attr name com.steer.geolocation:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5909,21 +5884,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:expandedTitleMarginTop
+          @attr name com.steer.geolocation:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:expandedTitleTextAppearance
+          @attr name com.steer.geolocation:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5934,11 +5909,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:statusBarScrim
+          @attr name com.steer.geolocation:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#title}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5948,11 +5923,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:title
+          @attr name com.steer.geolocation:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -5962,17 +5937,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleEnabled
+          @attr name com.steer.geolocation:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:toolbarId
+          @attr name com.steer.geolocation:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -5982,8 +5957,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.tinmegali.mylocation:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.tinmegali.mylocation:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.steer.geolocation:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.steer.geolocation:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -5999,7 +5974,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6010,11 +5985,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:buttonTint
+          @attr name com.steer.geolocation:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6030,7 +6005,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:buttonTintMode
+          @attr name com.steer.geolocation:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -6039,8 +6014,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.tinmegali.mylocation:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.tinmegali.mylocation:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.steer.geolocation:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.steer.geolocation:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -6049,23 +6024,23 @@ containing a value of this type.
             0x7f0100ab, 0x7f0100ac
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:keylines
+          @attr name com.steer.geolocation:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:statusBarBackground
+          @attr name com.steer.geolocation:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -6075,10 +6050,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.tinmegali.mylocation:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.tinmegali.mylocation:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.tinmegali.mylocation:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.tinmegali.mylocation:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.steer.geolocation:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.steer.geolocation:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.steer.geolocation:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.steer.geolocation:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -6097,17 +6072,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:layout_anchor
+          @attr name com.steer.geolocation:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6132,11 +6107,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:layout_anchorGravity
+          @attr name com.steer.geolocation:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6146,11 +6121,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:layout_behavior
+          @attr name com.steer.geolocation:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6160,7 +6135,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:layout_keyline
+          @attr name com.steer.geolocation:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -6169,9 +6144,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.tinmegali.mylocation:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.tinmegali.mylocation:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError com.tinmegali.mylocation:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.steer.geolocation:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.steer.geolocation:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.steer.geolocation:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -6181,27 +6156,27 @@ containing a value of this type.
             0x7f0100b1, 0x7f0100b2, 0x7f0100b3
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:bottomSheetDialogTheme
+          @attr name com.steer.geolocation:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:bottomSheetStyle
+          @attr name com.steer.geolocation:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -6212,7 +6187,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:textColorError
+          @attr name com.steer.geolocation:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -6221,14 +6196,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.tinmegali.mylocation:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.tinmegali.mylocation:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.tinmegali.mylocation:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.tinmegali.mylocation:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.tinmegali.mylocation:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.tinmegali.mylocation:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.tinmegali.mylocation:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.tinmegali.mylocation:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.steer.geolocation:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.steer.geolocation:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.steer.geolocation:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.steer.geolocation:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.steer.geolocation:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.steer.geolocation:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.steer.geolocation:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.steer.geolocation:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -6244,7 +6219,7 @@ containing a value of this type.
             0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6256,11 +6231,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:arrowHeadLength
+          @attr name com.steer.geolocation:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6272,11 +6247,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:arrowShaftLength
+          @attr name com.steer.geolocation:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6288,11 +6263,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:barLength
+          @attr name com.steer.geolocation:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#color}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6303,11 +6278,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:color
+          @attr name com.steer.geolocation:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6319,11 +6294,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:drawableSize
+          @attr name com.steer.geolocation:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6335,11 +6310,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:gapBetweenBars
+          @attr name com.steer.geolocation:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6349,11 +6324,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:spinBars
+          @attr name com.steer.geolocation:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6365,7 +6340,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:thickness
+          @attr name com.steer.geolocation:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -6374,14 +6349,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.tinmegali.mylocation:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.tinmegali.mylocation:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.tinmegali.mylocation:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.tinmegali.mylocation:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.tinmegali.mylocation:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.tinmegali.mylocation:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.tinmegali.mylocation:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.tinmegali.mylocation:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.steer.geolocation:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.steer.geolocation:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.steer.geolocation:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.steer.geolocation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.steer.geolocation:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.steer.geolocation:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.steer.geolocation:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.steer.geolocation:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -6394,10 +6369,10 @@ containing a value of this type.
          */
         public static final int[] FloatingActionButton = {
             0x7f01001a, 0x7f0100bc, 0x7f0100bd, 0x7f0100be,
-            0x7f0100bf, 0x7f0100c0, 0x7f01012f, 0x7f010130
+            0x7f0100bf, 0x7f0100c0, 0x7f010135, 0x7f010136
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6408,11 +6383,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:backgroundTint
+          @attr name com.steer.geolocation:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6428,11 +6403,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:backgroundTintMode
+          @attr name com.steer.geolocation:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6444,11 +6419,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:borderWidth
+          @attr name com.steer.geolocation:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6460,11 +6435,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:elevation
+          @attr name com.steer.geolocation:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6477,11 +6452,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:fabSize
+          @attr name com.steer.geolocation:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6493,11 +6468,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:pressedTranslationZ
+          @attr name com.steer.geolocation:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6508,11 +6483,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:rippleColor
+          @attr name com.steer.geolocation:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6522,7 +6497,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:useCompatPadding
+          @attr name com.steer.geolocation:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -6533,7 +6508,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.tinmegali.mylocation:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.steer.geolocation:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -6555,7 +6530,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -6565,7 +6540,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:foregroundInsidePadding
+          @attr name com.steer.geolocation:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -6579,10 +6554,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.tinmegali.mylocation:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.tinmegali.mylocation:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.tinmegali.mylocation:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.tinmegali.mylocation:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.steer.geolocation:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.steer.geolocation:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.steer.geolocation:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.steer.geolocation:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -6630,17 +6605,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:divider
+          @attr name com.steer.geolocation:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -6652,11 +6627,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:dividerPadding
+          @attr name com.steer.geolocation:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -6666,11 +6641,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:measureWithLargestChild
+          @attr name com.steer.geolocation:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -6685,7 +6660,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:showDividers
+          @attr name com.steer.geolocation:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -6764,9 +6739,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.tinmegali.mylocation:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.tinmegali.mylocation:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.tinmegali.mylocation:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.steer.geolocation:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.steer.geolocation:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.steer.geolocation:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -6776,7 +6751,7 @@ containing a value of this type.
             0x7f0100c5, 0x7f0100c6, 0x7f0100c7
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -6786,11 +6761,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:circleCrop
+          @attr name com.steer.geolocation:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -6800,11 +6775,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:imageAspectRatio
+          @attr name com.steer.geolocation:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -6818,7 +6793,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:imageAspectRatioAdjust
+          @attr name com.steer.geolocation:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -6827,30 +6802,42 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled com.tinmegali.mylocation:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.tinmegali.mylocation:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.tinmegali.mylocation:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.tinmegali.mylocation:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.tinmegali.mylocation:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.tinmegali.mylocation:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.tinmegali.mylocation:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.tinmegali.mylocation:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.tinmegali.mylocation:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.tinmegali.mylocation:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.tinmegali.mylocation:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.tinmegali.mylocation:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.tinmegali.mylocation:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.tinmegali.mylocation:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.tinmegali.mylocation:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.tinmegali.mylocation:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.tinmegali.mylocation:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled com.steer.geolocation:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.steer.geolocation:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.steer.geolocation:cameraMaxZoomPreference}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.steer.geolocation:cameraMinZoomPreference}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.steer.geolocation:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.steer.geolocation:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.steer.geolocation:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.steer.geolocation:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.steer.geolocation:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.steer.geolocation:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.steer.geolocation:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.steer.geolocation:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.steer.geolocation:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.steer.geolocation:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.steer.geolocation:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.steer.geolocation:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.steer.geolocation:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.steer.geolocation:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.steer.geolocation:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.steer.geolocation:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.steer.geolocation:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.steer.geolocation:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.steer.geolocation:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_ambientEnabled
            @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraMaxZoomPreference
+           @see #MapAttrs_cameraMinZoomPreference
            @see #MapAttrs_cameraTargetLat
            @see #MapAttrs_cameraTargetLng
            @see #MapAttrs_cameraTilt
            @see #MapAttrs_cameraZoom
+           @see #MapAttrs_latLngBoundsNorthEastLatitude
+           @see #MapAttrs_latLngBoundsNorthEastLongitude
+           @see #MapAttrs_latLngBoundsSouthWestLatitude
+           @see #MapAttrs_latLngBoundsSouthWestLongitude
            @see #MapAttrs_liteMode
            @see #MapAttrs_mapType
            @see #MapAttrs_uiCompass
@@ -6868,10 +6855,11 @@ containing a value of this type.
             0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf,
             0x7f0100d0, 0x7f0100d1, 0x7f0100d2, 0x7f0100d3,
             0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7,
-            0x7f0100d8
+            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
+            0x7f0100dc, 0x7f0100dd, 0x7f0100de
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#ambientEnabled}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#ambientEnabled}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6881,11 +6869,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:ambientEnabled
+          @attr name com.steer.geolocation:ambientEnabled
         */
         public static final int MapAttrs_ambientEnabled = 16;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6895,11 +6883,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:cameraBearing
+          @attr name com.steer.geolocation:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraMaxZoomPreference}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6909,11 +6897,39 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:cameraTargetLat
+          @attr name com.steer.geolocation:cameraMaxZoomPreference
+        */
+        public static final int MapAttrs_cameraMaxZoomPreference = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraMinZoomPreference}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.steer.geolocation:cameraMinZoomPreference
+        */
+        public static final int MapAttrs_cameraMinZoomPreference = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.steer.geolocation:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6923,11 +6939,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:cameraTargetLng
+          @attr name com.steer.geolocation:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6937,11 +6953,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:cameraTilt
+          @attr name com.steer.geolocation:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6951,11 +6967,67 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:cameraZoom
+          @attr name com.steer.geolocation:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#latLngBoundsNorthEastLatitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.steer.geolocation:latLngBoundsNorthEastLatitude
+        */
+        public static final int MapAttrs_latLngBoundsNorthEastLatitude = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#latLngBoundsNorthEastLongitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.steer.geolocation:latLngBoundsNorthEastLongitude
+        */
+        public static final int MapAttrs_latLngBoundsNorthEastLongitude = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#latLngBoundsSouthWestLatitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.steer.geolocation:latLngBoundsSouthWestLatitude
+        */
+        public static final int MapAttrs_latLngBoundsSouthWestLatitude = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#latLngBoundsSouthWestLongitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.steer.geolocation:latLngBoundsSouthWestLongitude
+        */
+        public static final int MapAttrs_latLngBoundsSouthWestLongitude = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6965,11 +7037,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:liteMode
+          @attr name com.steer.geolocation:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6985,11 +7057,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:mapType
+          @attr name com.steer.geolocation:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6999,11 +7071,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiCompass
+          @attr name com.steer.geolocation:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7013,11 +7085,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiMapToolbar
+          @attr name com.steer.geolocation:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7027,11 +7099,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiRotateGestures
+          @attr name com.steer.geolocation:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7041,11 +7113,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiScrollGestures
+          @attr name com.steer.geolocation:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7055,11 +7127,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiTiltGestures
+          @attr name com.steer.geolocation:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7069,11 +7141,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiZoomControls
+          @attr name com.steer.geolocation:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7083,11 +7155,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:uiZoomGestures
+          @attr name com.steer.geolocation:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7097,11 +7169,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:useViewLifecycle
+          @attr name com.steer.geolocation:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -7111,7 +7183,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:zOrderOnTop
+          @attr name com.steer.geolocation:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MenuGroup.
@@ -7180,9 +7252,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.tinmegali.mylocation:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.tinmegali.mylocation:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.tinmegali.mylocation:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.steer.geolocation:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.steer.geolocation:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.steer.geolocation:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7196,7 +7268,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.tinmegali.mylocation:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.steer.geolocation:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7220,21 +7292,21 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
-            0x7f0100dc
+            0x0101026f, 0x7f0100df, 0x7f0100e0, 0x7f0100e1,
+            0x7f0100e2
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:actionLayout
+          @attr name com.steer.geolocation:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7244,11 +7316,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:actionProviderClass
+          @attr name com.steer.geolocation:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7258,7 +7330,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:actionViewClass
+          @attr name com.steer.geolocation:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -7340,7 +7412,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7356,7 +7428,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:showAsAction
+          @attr name com.steer.geolocation:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -7372,7 +7444,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.tinmegali.mylocation:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.steer.geolocation:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -7385,7 +7457,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f0100dd
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100e3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -7430,7 +7502,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -7440,7 +7512,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:preserveIconSpacing
+          @attr name com.steer.geolocation:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -7452,13 +7524,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.tinmegali.mylocation:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.tinmegali.mylocation:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.tinmegali.mylocation:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.tinmegali.mylocation:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.tinmegali.mylocation:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.tinmegali.mylocation:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.tinmegali.mylocation:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.steer.geolocation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.steer.geolocation:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.steer.geolocation:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.steer.geolocation:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.steer.geolocation:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.steer.geolocation:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.steer.geolocation:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -7473,8 +7545,8 @@ containing a value of this type.
          */
         public static final int[] NavigationView = {
             0x010100d4, 0x010100dd, 0x0101011f, 0x7f01001a,
-            0x7f0100de, 0x7f0100df, 0x7f0100e0, 0x7f0100e1,
-            0x7f0100e2, 0x7f0100e3
+            0x7f0100e4, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7,
+            0x7f0100e8, 0x7f0100e9
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -7495,7 +7567,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7507,31 +7579,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:elevation
+          @attr name com.steer.geolocation:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:headerLayout
+          @attr name com.steer.geolocation:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:itemBackground
+          @attr name com.steer.geolocation:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7542,21 +7614,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:itemIconTint
+          @attr name com.steer.geolocation:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:itemTextAppearance
+          @attr name com.steer.geolocation:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7567,17 +7639,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:itemTextColor
+          @attr name com.steer.geolocation:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:menu
+          @attr name com.steer.geolocation:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -7587,13 +7659,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.tinmegali.mylocation:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.steer.geolocation:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f0100e4
+            0x01010176, 0x7f0100ea
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -7602,7 +7674,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -7612,7 +7684,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:overlapAnchor
+          @attr name com.steer.geolocation:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -7621,15 +7693,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.tinmegali.mylocation:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.steer.geolocation:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f0100e5
+            0x7f0100eb
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -7639,7 +7711,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:state_above_anchor
+          @attr name com.steer.geolocation:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -7649,10 +7721,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.tinmegali.mylocation:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.tinmegali.mylocation:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.tinmegali.mylocation:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.tinmegali.mylocation:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.steer.geolocation:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.steer.geolocation:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.steer.geolocation:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.steer.geolocation:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -7661,8 +7733,8 @@ containing a value of this type.
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x7f0100e6, 0x7f0100e7, 0x7f0100e8,
-            0x7f0100e9
+            0x010100c4, 0x7f0100ec, 0x7f0100ed, 0x7f0100ee,
+            0x7f0100ef
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -7671,7 +7743,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7681,11 +7753,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:layoutManager
+          @attr name com.steer.geolocation:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7695,11 +7767,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:reverseLayout
+          @attr name com.steer.geolocation:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7709,11 +7781,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:spanCount
+          @attr name com.steer.geolocation:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7723,7 +7795,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:stackFromEnd
+          @attr name com.steer.geolocation:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -7732,15 +7804,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.tinmegali.mylocation:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.steer.geolocation:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f0100ea
+            0x7f0100f0
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -7748,7 +7820,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.tinmegali.mylocation:insetForeground
+          @attr name com.steer.geolocation:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -7757,15 +7829,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.tinmegali.mylocation:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.steer.geolocation:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Params = {
-            0x7f0100eb
+            0x7f0100f1
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -7777,7 +7849,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:behavior_overlapTop
+          @attr name com.steer.geolocation:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -7790,19 +7862,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.tinmegali.mylocation:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.tinmegali.mylocation:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.tinmegali.mylocation:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.tinmegali.mylocation:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.tinmegali.mylocation:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.tinmegali.mylocation:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.tinmegali.mylocation:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.tinmegali.mylocation:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.tinmegali.mylocation:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.tinmegali.mylocation:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.tinmegali.mylocation:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.tinmegali.mylocation:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.tinmegali.mylocation:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.steer.geolocation:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.steer.geolocation:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.steer.geolocation:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.steer.geolocation:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.steer.geolocation:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.steer.geolocation:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.steer.geolocation:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.steer.geolocation:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.steer.geolocation:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.steer.geolocation:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.steer.geolocation:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.steer.geolocation:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.steer.geolocation:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -7824,10 +7896,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef,
-            0x7f0100f0, 0x7f0100f1, 0x7f0100f2, 0x7f0100f3,
-            0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7,
-            0x7f0100f8
+            0x7f0100f2, 0x7f0100f3, 0x7f0100f4, 0x7f0100f5,
+            0x7f0100f6, 0x7f0100f7, 0x7f0100f8, 0x7f0100f9,
+            0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd,
+            0x7f0100fe
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -7854,27 +7926,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:closeIcon
+          @attr name com.steer.geolocation:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:commitIcon
+          @attr name com.steer.geolocation:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7884,21 +7956,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:defaultQueryHint
+          @attr name com.steer.geolocation:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:goIcon
+          @attr name com.steer.geolocation:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7908,31 +7980,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:iconifiedByDefault
+          @attr name com.steer.geolocation:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:layout
+          @attr name com.steer.geolocation:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:queryBackground
+          @attr name com.steer.geolocation:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7942,57 +8014,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:queryHint
+          @attr name com.steer.geolocation:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:searchHintIcon
+          @attr name com.steer.geolocation:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:searchIcon
+          @attr name com.steer.geolocation:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:submitBackground
+          @attr name com.steer.geolocation:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:suggestionRowLayout
+          @attr name com.steer.geolocation:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:voiceIcon
+          @attr name com.steer.geolocation:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SignInButton.
@@ -8001,19 +8073,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize com.tinmegali.mylocation:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme com.tinmegali.mylocation:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris com.tinmegali.mylocation:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize com.steer.geolocation:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme com.steer.geolocation:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris com.steer.geolocation:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
            @see #SignInButton_scopeUris
          */
         public static final int[] SignInButton = {
-            0x7f0100f9, 0x7f0100fa, 0x7f0100fb
+            0x7f0100ff, 0x7f010100, 0x7f010101
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -8029,11 +8101,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:buttonSize
+          @attr name com.steer.geolocation:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -8049,18 +8121,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:colorScheme
+          @attr name com.steer.geolocation:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.tinmegali.mylocation:scopeUris
+          @attr name com.steer.geolocation:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
@@ -8070,15 +8142,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.tinmegali.mylocation:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.tinmegali.mylocation:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.steer.geolocation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.steer.geolocation:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f01001a, 0x7f0100fc
+            0x0101011f, 0x7f01001a, 0x7f010102
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -8087,7 +8159,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8099,11 +8171,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:elevation
+          @attr name com.steer.geolocation:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8115,7 +8187,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:maxActionInlineWidth
+          @attr name com.steer.geolocation:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -8128,7 +8200,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.tinmegali.mylocation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.steer.geolocation:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8165,13 +8237,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:popupTheme
+          @attr name com.steer.geolocation:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -8183,13 +8255,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.tinmegali.mylocation:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.tinmegali.mylocation:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.tinmegali.mylocation:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.tinmegali.mylocation:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.tinmegali.mylocation:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.tinmegali.mylocation:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.tinmegali.mylocation:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.steer.geolocation:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.steer.geolocation:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.steer.geolocation:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.steer.geolocation:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.steer.geolocation:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.steer.geolocation:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.steer.geolocation:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8203,9 +8275,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f0100fd,
-            0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101,
-            0x7f010102, 0x7f010103
+            0x01010124, 0x01010125, 0x01010142, 0x7f010103,
+            0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107,
+            0x7f010108, 0x7f010109
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -8226,7 +8298,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8236,11 +8308,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:showText
+          @attr name com.steer.geolocation:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8250,11 +8322,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:splitTrack
+          @attr name com.steer.geolocation:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8266,11 +8338,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:switchMinWidth
+          @attr name com.steer.geolocation:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8282,21 +8354,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:switchPadding
+          @attr name com.steer.geolocation:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:switchTextAppearance
+          @attr name com.steer.geolocation:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8308,17 +8380,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:thumbTextPadding
+          @attr name com.steer.geolocation:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#track}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:track
+          @attr name com.steer.geolocation:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabItem.
@@ -8362,22 +8434,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.tinmegali.mylocation:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.tinmegali.mylocation:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.tinmegali.mylocation:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.tinmegali.mylocation:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.tinmegali.mylocation:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.tinmegali.mylocation:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.tinmegali.mylocation:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.tinmegali.mylocation:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.tinmegali.mylocation:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.tinmegali.mylocation:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.tinmegali.mylocation:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.tinmegali.mylocation:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.tinmegali.mylocation:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.tinmegali.mylocation:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.tinmegali.mylocation:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.tinmegali.mylocation:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.steer.geolocation:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.steer.geolocation:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.steer.geolocation:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.steer.geolocation:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.steer.geolocation:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.steer.geolocation:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.steer.geolocation:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.steer.geolocation:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.steer.geolocation:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.steer.geolocation:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.steer.geolocation:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.steer.geolocation:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.steer.geolocation:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.steer.geolocation:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.steer.geolocation:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.steer.geolocation:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -8397,23 +8469,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107,
-            0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b,
-            0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f,
-            0x7f010110, 0x7f010111, 0x7f010112, 0x7f010113
+            0x7f01010a, 0x7f01010b, 0x7f01010c, 0x7f01010d,
+            0x7f01010e, 0x7f01010f, 0x7f010110, 0x7f010111,
+            0x7f010112, 0x7f010113, 0x7f010114, 0x7f010115,
+            0x7f010116, 0x7f010117, 0x7f010118, 0x7f010119
         };
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:tabBackground
+          @attr name com.steer.geolocation:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8425,11 +8497,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabContentStart
+          @attr name com.steer.geolocation:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8442,11 +8514,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:tabGravity
+          @attr name com.steer.geolocation:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8457,11 +8529,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabIndicatorColor
+          @attr name com.steer.geolocation:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8473,11 +8545,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabIndicatorHeight
+          @attr name com.steer.geolocation:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8489,11 +8561,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabMaxWidth
+          @attr name com.steer.geolocation:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8505,11 +8577,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabMinWidth
+          @attr name com.steer.geolocation:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8522,11 +8594,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:tabMode
+          @attr name com.steer.geolocation:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8538,11 +8610,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabPadding
+          @attr name com.steer.geolocation:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8554,11 +8626,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabPaddingBottom
+          @attr name com.steer.geolocation:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8570,11 +8642,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabPaddingEnd
+          @attr name com.steer.geolocation:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8586,11 +8658,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabPaddingStart
+          @attr name com.steer.geolocation:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8602,11 +8674,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabPaddingTop
+          @attr name com.steer.geolocation:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8617,21 +8689,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabSelectedTextColor
+          @attr name com.steer.geolocation:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:tabTextAppearance
+          @attr name com.steer.geolocation:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8642,7 +8714,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:tabTextColor
+          @attr name com.steer.geolocation:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -8659,7 +8731,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.tinmegali.mylocation:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.steer.geolocation:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -8725,14 +8797,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.tinmegali.mylocation:textAllCaps
+          @attr name com.steer.geolocation:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -8743,15 +8815,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.tinmegali.mylocation:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.tinmegali.mylocation:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.tinmegali.mylocation:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.tinmegali.mylocation:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.tinmegali.mylocation:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.tinmegali.mylocation:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.tinmegali.mylocation:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled com.tinmegali.mylocation:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.tinmegali.mylocation:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.steer.geolocation:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.steer.geolocation:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.steer.geolocation:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.steer.geolocation:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.steer.geolocation:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.steer.geolocation:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.steer.geolocation:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.steer.geolocation:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.steer.geolocation:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -8766,9 +8838,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_hintTextAppearance
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010114, 0x7f010115,
-            0x7f010116, 0x7f010117, 0x7f010118, 0x7f010119,
-            0x7f01011a, 0x7f01011b, 0x7f01011c
+            0x0101009a, 0x01010150, 0x7f01011a, 0x7f01011b,
+            0x7f01011c, 0x7f01011d, 0x7f01011e, 0x7f01011f,
+            0x7f010120, 0x7f010121, 0x7f010122
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -8783,7 +8855,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8793,11 +8865,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:counterEnabled
+          @attr name com.steer.geolocation:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8807,31 +8879,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:counterMaxLength
+          @attr name com.steer.geolocation:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:counterOverflowTextAppearance
+          @attr name com.steer.geolocation:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:counterTextAppearance
+          @attr name com.steer.geolocation:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8841,21 +8913,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:errorEnabled
+          @attr name com.steer.geolocation:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:errorTextAppearance
+          @attr name com.steer.geolocation:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8865,11 +8937,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:hintAnimationEnabled
+          @attr name com.steer.geolocation:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8879,17 +8951,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:hintEnabled
+          @attr name com.steer.geolocation:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:hintTextAppearance
+          @attr name com.steer.geolocation:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Toolbar.
@@ -8900,29 +8972,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.tinmegali.mylocation:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.tinmegali.mylocation:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.tinmegali.mylocation:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.tinmegali.mylocation:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.tinmegali.mylocation:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.tinmegali.mylocation:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.tinmegali.mylocation:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.tinmegali.mylocation:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.tinmegali.mylocation:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.tinmegali.mylocation:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.tinmegali.mylocation:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.tinmegali.mylocation:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.tinmegali.mylocation:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.tinmegali.mylocation:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.tinmegali.mylocation:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.tinmegali.mylocation:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.tinmegali.mylocation:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.tinmegali.mylocation:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.tinmegali.mylocation:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.tinmegali.mylocation:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.tinmegali.mylocation:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.tinmegali.mylocation:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.tinmegali.mylocation:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.steer.geolocation:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.steer.geolocation:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.steer.geolocation:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.steer.geolocation:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.steer.geolocation:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.steer.geolocation:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.steer.geolocation:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.steer.geolocation:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.steer.geolocation:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.steer.geolocation:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.steer.geolocation:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.steer.geolocation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.steer.geolocation:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.steer.geolocation:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.steer.geolocation:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.steer.geolocation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.steer.geolocation:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.steer.geolocation:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.steer.geolocation:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.steer.geolocation:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.steer.geolocation:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.steer.geolocation:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.steer.geolocation:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8953,11 +9025,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int[] Toolbar = {
             0x010100af, 0x01010140, 0x7f010003, 0x7f010006,
             0x7f01000a, 0x7f010016, 0x7f010017, 0x7f010018,
-            0x7f010019, 0x7f01001b, 0x7f01011d, 0x7f01011e,
-            0x7f01011f, 0x7f010120, 0x7f010121, 0x7f010122,
-            0x7f010123, 0x7f010124, 0x7f010125, 0x7f010126,
-            0x7f010127, 0x7f010128, 0x7f010129, 0x7f01012a,
-            0x7f01012b
+            0x7f010019, 0x7f01001b, 0x7f010123, 0x7f010124,
+            0x7f010125, 0x7f010126, 0x7f010127, 0x7f010128,
+            0x7f010129, 0x7f01012a, 0x7f01012b, 0x7f01012c,
+            0x7f01012d, 0x7f01012e, 0x7f01012f, 0x7f010130,
+            0x7f010131
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8972,7 +9044,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8982,21 +9054,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:collapseContentDescription
+          @attr name com.steer.geolocation:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:collapseIcon
+          @attr name com.steer.geolocation:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9008,11 +9080,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetEnd
+          @attr name com.steer.geolocation:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9024,11 +9096,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetLeft
+          @attr name com.steer.geolocation:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9040,11 +9112,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetRight
+          @attr name com.steer.geolocation:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9056,21 +9128,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:contentInsetStart
+          @attr name com.steer.geolocation:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:logo
+          @attr name com.steer.geolocation:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9080,11 +9152,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:logoDescription
+          @attr name com.steer.geolocation:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9096,11 +9168,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:maxButtonHeight
+          @attr name com.steer.geolocation:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9110,31 +9182,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:navigationContentDescription
+          @attr name com.steer.geolocation:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:navigationIcon
+          @attr name com.steer.geolocation:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:popupTheme
+          @attr name com.steer.geolocation:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9144,21 +9216,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:subtitle
+          @attr name com.steer.geolocation:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:subtitleTextAppearance
+          @attr name com.steer.geolocation:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9169,11 +9241,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:subtitleTextColor
+          @attr name com.steer.geolocation:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#title}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9183,11 +9255,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:title
+          @attr name com.steer.geolocation:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9199,11 +9271,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleMarginBottom
+          @attr name com.steer.geolocation:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9215,11 +9287,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleMarginEnd
+          @attr name com.steer.geolocation:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9231,11 +9303,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleMarginStart
+          @attr name com.steer.geolocation:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9247,11 +9319,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleMarginTop
+          @attr name com.steer.geolocation:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9263,21 +9335,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleMargins
+          @attr name com.steer.geolocation:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:titleTextAppearance
+          @attr name com.steer.geolocation:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9288,7 +9360,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:titleTextColor
+          @attr name com.steer.geolocation:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9299,9 +9371,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.tinmegali.mylocation:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.tinmegali.mylocation:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.tinmegali.mylocation:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.steer.geolocation:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.steer.geolocation:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.steer.geolocation:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9310,8 +9382,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f01012c, 0x7f01012d,
-            0x7f01012e
+            0x01010000, 0x010100da, 0x7f010132, 0x7f010133,
+            0x7f010134
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9326,7 +9398,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9338,11 +9410,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:paddingEnd
+          @attr name com.steer.geolocation:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9354,17 +9426,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:paddingStart
+          @attr name com.steer.geolocation:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tinmegali.mylocation:theme
+          @attr name com.steer.geolocation:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9374,15 +9446,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.tinmegali.mylocation:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.tinmegali.mylocation:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.steer.geolocation:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.steer.geolocation:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f01012f, 0x7f010130
+            0x010100d4, 0x7f010135, 0x7f010136
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9391,7 +9463,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9402,11 +9474,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.tinmegali.mylocation:backgroundTint
+          @attr name com.steer.geolocation:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tinmegali.mylocation.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.steer.geolocation.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9422,7 +9494,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.tinmegali.mylocation:backgroundTintMode
+          @attr name com.steer.geolocation:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
