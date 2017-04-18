@@ -52,7 +52,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.maps.android.PolyUtil;
 import com.steer.geolocation.entities.PointOfSale;
 
 import java.io.BufferedReader;
@@ -293,27 +292,11 @@ public class MainActivity extends AppCompatActivity
             LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
     }
 
-    //private void updateCameraBearing(GoogleMap googleMap, float bearing) {
-    private void updateCameraBearing(float bearing) {
-        if ( map == null) return;
-        CameraPosition camPos = CameraPosition
-                .builder(
-                        map.getCameraPosition() // current Camera
-                )
-                .zoom(19)         //Establecemos el zoom en 19
-                .tilt(70)
-                .bearing(bearing)
-                .build();
-        map.animateCamera(CameraUpdateFactory.newCameraPosition(camPos));
-
-    }
-
     @Override
     public void onLocationChanged(Location location) {
         Log.d(TAG, "onLocationChanged ["+location+"]");
         lastLocation = location;
         writeActualLocation(location);
-        //updateCameraBearing(location.getBearing());
     }
 
     // GoogleApiClient.ConnectionCallbacks connected
@@ -345,7 +328,7 @@ public class MainActivity extends AppCompatActivity
                 Log.i(TAG, "LasKnown location. " +
                         "Long: " + lastLocation.getLongitude() +
                         " | Lat: " + lastLocation.getLatitude());
-                //writeLastLocation();
+                writeLastLocation();
                 startLocationUpdates();
             } else {
                 Log.w(TAG, "No location retrieved yet");
@@ -359,7 +342,7 @@ public class MainActivity extends AppCompatActivity
         textLat.setText( "Lat: " + location.getLatitude() );
         textLong.setText( "Long: " + location.getLongitude() );
 
-        markerLocation(new LatLng(location.getLatitude(), location.getLongitude()), location);
+        markerLocation(new LatLng(location.getLatitude(), location.getLongitude()));
     }
 
     private void writeLastLocation() {
@@ -367,7 +350,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private Marker locationMarker;
-    private void markerLocation(LatLng latLng, Location location) {
+    private void markerLocation(LatLng latLng) {
         Log.i(TAG, "markerLocation("+latLng+")");
         String title = latLng.latitude + ", " + latLng.longitude;
         MarkerOptions markerOptions = new MarkerOptions()
@@ -378,14 +361,10 @@ public class MainActivity extends AppCompatActivity
                 locationMarker.remove();
             locationMarker = map.addMarker(markerOptions);
             //float zoom = 14f;
-            CameraPosition camPos = CameraPosition
-                    .builder(
-                            map.getCameraPosition() // current Camera
-                    )
-                    .bearing(location.getBearing())
+            CameraPosition camPos = new CameraPosition.Builder()
                     .target(latLng)   //Centramos en mi ubicacion
                     .zoom(19)         //Establecemos el zoom en 19
-                    //.bearing(45)      //Establecemos la orientación con el noreste arriba
+                    .bearing(45)      //Establecemos la orientación con el noreste arriba
                     .tilt(70)         //Bajamos el punto de vista de la cámara 70 grados
                     .build();
             CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(camPos);//newLatLngZoom(latLng, zoom);
@@ -585,7 +564,7 @@ public class MainActivity extends AppCompatActivity
     private List<Circle> geoFenceLimits = new ArrayList<>();
     private void drawGeofence() {
         Log.d(TAG, "drawGeofence()");
-        //map.clear();
+
         if ( geoFenceLimits.size() > 0) {
             for (int i = 0; i < geoFenceLimits.size(); i++) {
                 geoFenceLimits.get(i).remove();
@@ -593,38 +572,40 @@ public class MainActivity extends AppCompatActivity
             geoFenceLimits = new ArrayList<Circle>();
         }
         for (int i = 0; i < geoFenceMarkers.size(); i++){
-            //TODO
-            /*Original
             CircleOptions circleOptions = new CircleOptions()
                     .center(geoFenceMarkers.get(i).getPosition())
+                    //.strokeColor(Color.argb(50, 70,70,70))
+                    //.fillColor( Color.argb(100, 150,150,150) )
+                    //.fillColor(Color.TRANSPARENT)
+                    //.radius( GEOFENCE_RADIUS );
                     .radius( GEOFENCE_RADIUS )
                     .fillColor(Color.TRANSPARENT)
                     .strokeColor(Color.TRANSPARENT)
                     .strokeWidth(0);
-            geoFenceLimits.add(map.addCircle(circleOptions));*/
-            CircleOptions circleOptions = new CircleOptions()
-                    .center(geoFenceMarkers.get(i).getPosition())
-                    .radius( GEOFENCE_RADIUS )
-                    //.fillColor(Color.TRANSPARENT)
-                    //.strokeColor(Color.TRANSPARENT)
-                    //.strokeWidth(0);
-                    .fillColor(0x40ff0000)
-                    .strokeColor(Color.TRANSPARENT)
-                    .strokeWidth(2);
             geoFenceLimits.add(map.addCircle(circleOptions));
         }
 
-        ArrayList<LatLng> ss = new ArrayList<LatLng>();
-                ss.add(new LatLng(-34.927647, -57.973754));ss.add(new LatLng( -34.933120, -57.979907));ss.add(
-                        new LatLng(-34.943369, -57.966196));ss.add(new LatLng(-34.937715, -57.960064));
+        Polygon polygon2 = map.addPolygon(new PolygonOptions()
+                .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
+                        new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
+                .strokeColor(Color.BLUE)
+                .fillColor(Color.parseColor("#51000000")).strokeWidth(2));
 
-        if (PolyUtil.containsLocation(geoFenceMarkers.get(0).getPosition(), ss, Boolean.FALSE)){
-            Polygon polygon3 = map.addPolygon(new PolygonOptions()
-                    .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
-                            new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
-                    .strokeColor(Color.TRANSPARENT)
-                    .fillColor(0x40ff0000).strokeWidth(1));
-        }
+
+    }
+    private void drawGeofence2() {
+        /*
+        Log.d(TAG, "drawGeofence()");
+        LatLng l1 = new LatLng(-34.917636, -57.971065);
+        LatLng l2 = new LatLng(-34.917636, -57.971065);
+        LatLng l3 = new LatLng(-34.917636, -57.971065);
+        CircleOptions circleOptions = new CircleOptions()
+                .center(geoFenceMarkers.get(i).getPosition())
+                .strokeColor(Color.argb(50, 70,70,70))
+                .fillColor( Color.argb(100, 150,150,150) )
+                .radius( GEOFENCE_RADIUS );
+        geoFenceLimits.add(map.addCircle(circleOptions));
+        */
 
     }
 
