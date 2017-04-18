@@ -83,34 +83,15 @@ public class MainActivity extends AppCompatActivity
 
     private MapFragment mapFragment;
 
+    private Boolean inZone = Boolean.TRUE;
+    private Boolean inOnce = Boolean.FALSE;
+
     private static final String NOTIFICATION_MSG = "NOTIFICATION MSG";
     // Create a Intent send by the notification
     public static Intent makeNotificationIntent(Context context, String msg) {
         Intent intent = new Intent( context, MainActivity.class );
         intent.putExtra( NOTIFICATION_MSG, msg );
         return intent;
-    }
-
-    public String loadJSONFromAsset() {
-        ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
-        return null;
-    }
-
-    public String loadJSON() {
-        String json = "";
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader(this.getFileStreamPath("userInfo2.json").getPath()));
-            String line;
-            StringBuilder buffer = new StringBuilder();
-            while ((line = reader.readLine()) != null) {
-                buffer.append(line);
-            }
-            reader.close();
-            json = buffer.toString();
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        return json;
     }
 
     @Override
@@ -120,16 +101,6 @@ public class MainActivity extends AppCompatActivity
         textLat = (TextView) findViewById(R.id.lat);
         textLong = (TextView) findViewById(R.id.lon);
         PACKAGE_NAME = getApplicationContext().getPackageName();
-        /*
-        Gson gson = new Gson();
-        try {
-            //JSONObject obj = new JSONObject(loadJSON());
-            JSONObject obj = new JSONObject(loadJSONFromAsset());
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }*/
-
-        //Object pointOfSales = gson.fromJson(loadJSONFromAsset(), Object.class);
 
         // initialize GoogleMaps
         initGMaps();
@@ -178,7 +149,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         switch ( item.getItemId() ) {
             case R.id.geofence: {
-                startGeofence();
+                //startGeofence();
                 return true;
             }
             case R.id.clear: {
@@ -250,6 +221,12 @@ public class MainActivity extends AppCompatActivity
         map.setOnMapClickListener(this);
         map.setOnMarkerClickListener(this);
 
+        Polygon polygon3 = map.addPolygon(new PolygonOptions()
+                .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
+                        new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
+                .strokeColor(Color.TRANSPARENT)
+                .fillColor(0x40ff0000).strokeWidth(1));
+
         this.setPointOfSales();
 
         /* Try Intent
@@ -312,7 +289,14 @@ public class MainActivity extends AppCompatActivity
     public void onLocationChanged(Location location) {
         Log.d(TAG, "onLocationChanged ["+location+"]");
         lastLocation = location;
-        writeActualLocation(location);
+        if (!this.getInZone() && this.checkIntoZone()){
+            startGeofence();
+            this.setInZone(Boolean.TRUE);
+        }
+        if (!this.getInOnce()){
+            writeActualLocation(location);
+            this.setInOnce(Boolean.TRUE);
+        }
         //updateCameraBearing(location.getBearing());
     }
 
@@ -390,7 +374,9 @@ public class MainActivity extends AppCompatActivity
                     .build();
             CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(camPos);//newLatLngZoom(latLng, zoom);
             map.animateCamera(cameraUpdate);
+            //startGeofence();
         }
+        this.setInZone(Boolean.FALSE);
     }
 
 
@@ -448,37 +434,6 @@ public class MainActivity extends AppCompatActivity
                 }
         );
 
-//      ######BORRAR ..SE AGREGAN LOS PUNTOS DE VENTA DESDE LA BASE
-/*
-        pointOfSalesList.add(new PointOfSale(
-            "Kiosko Zodiaco","Horario: 9hs - 14hs, 16hs - 20hs","-34.927244", "-57.964372"));
-        pointOfSalesList.add(new PointOfSale(
-            "Alamacen del Barrio","Horario: 9:30hs - 13:30hs, 17hs - 20:30hs","-34.928245","-57.970325"));
-        pointOfSalesList.add(new PointOfSale(
-            "Locutorio El Sol","Horario: 7hs - 21hs","-34.918198", "-57.967283"));
-
-
-        dbRef.child("pointOfSales").push().setValue(pointOfSalesList.get(0));
-        dbRef.child("pointOfSales").push().setValue(pointOfSalesList.get(1));
-        dbRef.child("pointOfSales").push().setValue(pointOfSalesList.get(2));
-
-        for (int i = 0; i < pointOfSalesList.size(); i++){
-            // Define marker options
-            MarkerOptions markerOptions = new MarkerOptions()
-                    .position(new LatLng(pointOfSalesList.get(i).getLatitude(), pointOfSalesList.get(i).getLongitude()))
-                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
-                    .title(pointOfSalesList.get(i).getName())
-                    .snippet(pointOfSalesList.get(i).getDetails());
-            if ( map!=null ) {
-                // Remove last geoFenceMarker
-                //if (geoFenceMarker != null)
-                //    geoFenceMarker.remove();
-                pointOfSalesMarkers.add(map.addMarker(markerOptions));
-
-            }
-        }
-*/
-
     }
 
     private List<Marker> geoFenceMarkers = new ArrayList<Marker>();
@@ -505,9 +460,11 @@ public class MainActivity extends AppCompatActivity
         //if( geoFenceMarker != null ) {
         if( geoFenceMarkers.size() > 0 ) {
             for (int i = 0; i < geoFenceMarkers.size(); i++){
-                Geofence geofence = createGeofence(geoFenceMarkers.get(i).getPosition(), GEOFENCE_RADIUS );
-                GeofencingRequest geofenceRequest = createGeofenceRequest( geofence );
-                addGeofence( geofenceRequest );
+
+                    Geofence geofence = createGeofence(geoFenceMarkers.get(i).getPosition(), GEOFENCE_RADIUS );
+                    GeofencingRequest geofenceRequest = createGeofenceRequest( geofence );
+                    addGeofence( geofenceRequest );
+
                 //addGeofenceParking( geofenceRequest );
             }
         } else {
@@ -518,7 +475,7 @@ public class MainActivity extends AppCompatActivity
 
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "My Geofence";
-    private static final float GEOFENCE_RADIUS = 1000.0f; // in meters
+    private static final float GEOFENCE_RADIUS = 5.0f; // in meters
 
     // Create a Geofence
     private Geofence createGeofence( LatLng latLng, float radius ) {
@@ -592,8 +549,13 @@ public class MainActivity extends AppCompatActivity
             }
             geoFenceLimits = new ArrayList<Circle>();
         }
-        for (int i = 0; i < geoFenceMarkers.size(); i++){
-            //TODO
+        ArrayList<LatLng> ss = new ArrayList<LatLng>();
+        ss.add(new LatLng(-34.927647, -57.973754));ss.add(new LatLng( -34.933120, -57.979907));ss.add(
+                new LatLng(-34.943369, -57.966196));ss.add(new LatLng(-34.937715, -57.960064));
+
+        if (PolyUtil.containsLocation(geoFenceMarkers.get(0).getPosition(), ss, Boolean.FALSE)){
+            for (int i = 0; i < geoFenceMarkers.size(); i++){
+                //TODO
             /*Original
             CircleOptions circleOptions = new CircleOptions()
                     .center(geoFenceMarkers.get(i).getPosition())
@@ -602,30 +564,40 @@ public class MainActivity extends AppCompatActivity
                     .strokeColor(Color.TRANSPARENT)
                     .strokeWidth(0);
             geoFenceLimits.add(map.addCircle(circleOptions));*/
-            CircleOptions circleOptions = new CircleOptions()
-                    .center(geoFenceMarkers.get(i).getPosition())
-                    .radius( GEOFENCE_RADIUS )
-                    //.fillColor(Color.TRANSPARENT)
-                    //.strokeColor(Color.TRANSPARENT)
-                    //.strokeWidth(0);
-                    .fillColor(0x40ff0000)
-                    .strokeColor(Color.TRANSPARENT)
-                    .strokeWidth(2);
-            geoFenceLimits.add(map.addCircle(circleOptions));
+                CircleOptions circleOptions = new CircleOptions()
+                        .center(geoFenceMarkers.get(i).getPosition())
+                        .radius( GEOFENCE_RADIUS )
+                        .fillColor(Color.TRANSPARENT)
+                        .strokeColor(Color.TRANSPARENT)
+                        .strokeWidth(0);
+                        //.fillColor(0x40ff0000)
+                        //.strokeColor(Color.TRANSPARENT)
+                        //.strokeWidth(2);
+                geoFenceLimits.add(map.addCircle(circleOptions));
+            }
         }
+    }
 
+    private Boolean checkIntoZone(){
         ArrayList<LatLng> ss = new ArrayList<LatLng>();
-                ss.add(new LatLng(-34.927647, -57.973754));ss.add(new LatLng( -34.933120, -57.979907));ss.add(
-                        new LatLng(-34.943369, -57.966196));ss.add(new LatLng(-34.937715, -57.960064));
+        ss.add(new LatLng(-34.927647, -57.973754));ss.add(new LatLng( -34.933120, -57.979907));ss.add(
+                new LatLng(-34.943369, -57.966196));ss.add(new LatLng(-34.937715, -57.960064));
 
-        if (PolyUtil.containsLocation(geoFenceMarkers.get(0).getPosition(), ss, Boolean.FALSE)){
-            Polygon polygon3 = map.addPolygon(new PolygonOptions()
-                    .add(new LatLng(-34.927647, -57.973754), new LatLng( -34.933120, -57.979907),
-                            new LatLng(-34.943369, -57.966196),new LatLng(-34.937715, -57.960064))
-                    .strokeColor(Color.TRANSPARENT)
-                    .fillColor(0x40ff0000).strokeWidth(1));
-        }
-
+        if (geoFenceMarkers.size() > 0 && PolyUtil.containsLocation(geoFenceMarkers.get(0).getPosition(), ss, Boolean.FALSE)){
+            for (int i = 0; i < geoFenceMarkers.size(); i++){
+                CircleOptions circleOptions = new CircleOptions()
+                        .center(geoFenceMarkers.get(i).getPosition())
+                        .radius( GEOFENCE_RADIUS )
+                        .fillColor(Color.TRANSPARENT)
+                        .strokeColor(Color.TRANSPARENT)
+                        .strokeWidth(0);
+                        //.fillColor(0x40ff0000)
+                        //.strokeColor(Color.TRANSPARENT)
+                        //.strokeWidth(2);
+                geoFenceLimits.add(map.addCircle(circleOptions));
+            }
+            return Boolean.TRUE;
+        } else return Boolean.FALSE;
     }
 
     private final String KEY_GEOFENCE_LAT = "GEOFENCE LATITUDE";
@@ -714,6 +686,7 @@ public class MainActivity extends AppCompatActivity
                 "Estacionar?", Snackbar.LENGTH_LONG);
         EstacionarListener parkingListener = new EstacionarListener();
         //mySnackbar.setAction("Aceptar", parkingListener);
+
         mySnackbar.setAction("Si", new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -745,9 +718,28 @@ public class MainActivity extends AppCompatActivity
             }
             geoFenceLimits = new ArrayList<Circle>();
         }
+        View b = findViewById(R.id.showMessage);
+        b.setVisibility(View.GONE);
+
+        this.setInZone(Boolean.FALSE);
 
         //if ( geoFenceLimits != null )
         //    geoFenceLimits.remove();
     }
 
+    public Boolean getInZone() {
+        return inZone;
+    }
+
+    public void setInZone(Boolean inZone) {
+        this.inZone = inZone;
+    }
+
+    public Boolean getInOnce() {
+        return inOnce;
+    }
+
+    public void setInOnce(Boolean inOnce) {
+        this.inOnce = inOnce;
+    }
 }
