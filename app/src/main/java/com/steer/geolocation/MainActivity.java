@@ -68,7 +68,8 @@ public class MainActivity extends AppCompatActivity
             OnMapReadyCallback,
             GoogleMap.OnMapClickListener,
             GoogleMap.OnMarkerClickListener,
-            ResultCallback<Status> {
+            ResultCallback<Status>,
+            GoogleMap.OnMyLocationButtonClickListener {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
@@ -208,6 +209,15 @@ public class MainActivity extends AppCompatActivity
         );
     }
 
+    /**
+     * Enables the My Location layer if the fine location permission has been granted.
+     */
+    private void enableMyLocation() {
+        if ( checkPermission() )
+            // Access to the location has been granted to the app.
+            map.setMyLocationEnabled(true);
+    }
+
     // Verify user's response of the permission requested
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
@@ -218,6 +228,7 @@ public class MainActivity extends AppCompatActivity
                 if ( grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED ){
                     // Permission granted
+                    enableMyLocation();
                     getLastKnownLocation();
 
                 } else {
@@ -249,6 +260,9 @@ public class MainActivity extends AppCompatActivity
         map.setOnMapClickListener(this);
         map.setOnMarkerClickListener(this);
 
+        map.setOnMyLocationButtonClickListener(this);
+        enableMyLocation();
+
         this.setPointOfSales();
 
         /* Try Intent
@@ -261,6 +275,15 @@ public class MainActivity extends AppCompatActivity
             startActivity(mapIntent);
         }*/
     }
+
+    @Override
+    public boolean onMyLocationButtonClick() {
+        Toast.makeText(this, "MyLocation button clicked", Toast.LENGTH_SHORT).show();
+        // Return false so that we don't consume the event and the default behavior still occurs
+        // (the camera animates to the user's current position).
+        return false;
+    }
+
 
     @Override
     public void onMapClick(LatLng latLng) {
@@ -296,7 +319,8 @@ public class MainActivity extends AppCompatActivity
     public void onLocationChanged(Location location) {
         Log.d(TAG, "onLocationChanged ["+location+"]");
         lastLocation = location;
-        writeActualLocation(location);
+        //
+        // writeActualLocation(location);
     }
 
     // GoogleApiClient.ConnectionCallbacks connected
@@ -342,7 +366,19 @@ public class MainActivity extends AppCompatActivity
         textLat.setText( "Lat: " + location.getLatitude() );
         textLong.setText( "Long: " + location.getLongitude() );
 
-        markerLocation(new LatLng(location.getLatitude(), location.getLongitude()));
+        //markerLocation(new LatLng(location.getLatitude(), location.getLongitude()));
+        if ( map!=null ) {
+
+            //float zoom = 14f;
+            CameraPosition camPos = new CameraPosition.Builder()
+                    .target(new LatLng(location.getLatitude(), location.getLongitude()))   //Centramos en mi ubicacion
+                    .zoom(19)         //Establecemos el zoom en 19
+                    .bearing(location.getBearing())      //Establecemos la orientación con el noreste arriba
+                    .tilt(70)         //Bajamos el punto de vista de la cámara 70 grados
+                    .build();
+            CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(camPos);//newLatLngZoom(latLng, zoom);
+            map.animateCamera(cameraUpdate);
+        }
     }
 
     private void writeLastLocation() {

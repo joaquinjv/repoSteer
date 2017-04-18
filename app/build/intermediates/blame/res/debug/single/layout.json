@@ -16,12 +16,12 @@
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -72,12 +72,12 @@
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
@@ -104,10 +104,6 @@
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
-        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
-    },
-    {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
     },
@@ -118,10 +114,6 @@
     {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
-        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -148,20 +140,12 @@
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
-        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
-    },
-    {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
-        "source": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
     },
     {
         "merged": "/home/pedro/AndroidStudioProjects/repoSteer/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
