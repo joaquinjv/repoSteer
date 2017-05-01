@@ -8,8 +8,8 @@ def generateSelfSignedCertificate(version) {
     def certXmlLocation = projectLocation + "/certificate.xml"
     def certificateDestination = projectLocation + "/src/main/assets/self-signed.ccc.crt"
     def certificateFolder = projectLocation + "/src/main/assets/"
-    def certificateIssuer = "CN=Developer"
-    def developerId = "dec53d7a55d5c312959e36fd218d0dd08d5afa08"
+    def certificateIssuer = "CN=Name"
+    def developerId = "600473c5448f68f38614a6c0c31324aa90bafa28"
     def apkLocation = ""
     android.applicationVariants.all { variant ->
         if ((variant.name).equals(version)) {
@@ -84,8 +84,15 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     //compile files('libs/gson-master.jar')
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.google.android.gms:play-services-location:9.8.0'
@@ -94,6 +101,7 @@ dependencies {
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'com.google.maps.android:android-maps-utils:0.4+'
     compile 'com.google.firebase:firebase-database:9.8.0'
+    compile(name:'mirrorlink-library', ext:'aar')
     testCompile 'junit:junit:4.12'
 }
 
